@@ -1,172 +1,94 @@
-﻿ # Datasets
+﻿# 🌟 Mastering Datasets in AssureQA
 
- A dataset serves as a structured system that organizes and groups created variables, allowing for efficient data management and categorization in a unified manner. This is used to override the default value of a variable with new one. This is useful when testing a scenario with multiple data. In AssureQA, user can call the dataset directly to the testcase from testcase editor/suite node editor of the test flow or through the for loop.
+Datasets in AssureQA organize and manage variables efficiently, allowing for easy data management and testing scenarios across multiple data sets. This guide walks you through creating and managing datasets dynamically.
 
- ## Creating Dataset
+## 🛠️ Creating and Managing Datasets
 
- 1. Click on Global menu 
- 
- 2. Click on Datasets section 
- 
- 3. Click on Create dataset button 
+### Step-by-Step Creation
 
- ![d1](/DatasetImages/d1.png)
+1. **Navigate to Dataset**:
+   Access the Global menu and select the Datasets section to start creating a new dataset.
 
- 4. Type a dataset name
- 
- 5. Click on create
- 
- ![d2](/DatasetImages/d2.png)
+   ![Create Dataset](/DatasetImages/d1.png)
 
- **Adding override values manually**
+2. **Enter Dataset Details**:
+   Click 'Create dataset', enter a name for your dataset, and finalize creation.
 
- 6. Click on add row, select desired variables
- 
- ![d4](/DatasetImages/d4.png)
- 
- 7. Enter a value which can be a plaintext/built-in function to the override value's fields
- 
- ![d5](/DatasetImages/d5.png)
+   ![Dataset Details](/DatasetImages/d2.png)
 
- 8. To add built-in function, click on the definition field of override value column, click on '*f*' button,click on builtin functions, select required function, fill all fields and then click on add.
- 
- ![d6](/DatasetImages/d6.png)
+3. **Add Override Values**:
+   Manually input override values or use built-in functions to tailor data for your test scenarios.
 
- Added function will be displayed on the field.
- 
- ![d7](/DatasetImages/d7.png)
- 
- 9. Click on add column, add required number of override value columns
- 
- ![d8](/DatasetImages/d8.png)
- 
- ![d9](/DatasetImages/d9.png)
- 
- 10. Click on update
- 
- ![d10](/DatasetImages/d10.png)
- 
- **Adding override values using Csv/.xlsx file**
- 
- 10. Click on kebab menu
- 
- 11. Click on export csv
- 
- ![d11](/DatasetImages/d11.png)
- 
- 12. Open the dowloaded file
- 
- 13. Enter values below the variable name (note: If we want to give built-in functions through csv, it must be written in a specific format like {{functionname(value)}}, for e.g, {{randomNum(11)}} on the sheet).
- 
- ![d12](/DatasetImages/d12.png)
+   ![Add Override](/DatasetImages/d4.png)
 
- 14. Save the file
- 
- 15. Back to AssureQA's dataset editor, click on kebab menu and select import csv
- 
- ![d13](/DatasetImages/d13.png)
- 
- 16. Click on upload file box and choose the edited file from computer 
- 
- ![d14](/DatasetImages/d14.png)
+4. **Function Integration**:
+   Enhance datasets by incorporating functions directly into your dataset fields for dynamic data manipulation.
 
- 17. Click on upload button.
- ![d15](/DatasetImages/d15.png)
- 
- New override value columns will be added or value will be filled into the existing columns based on the edits made on the csv.
+   ![Function Integration](/DatasetImages/d6.png)
 
- ![d16](/DatasetImages/d16.png)
- 
- 18. Click on update.
+5. **Expand Dataset**:
+   Add additional columns to accommodate more override values as your testing expands.
 
- **Adding Dataset to Test case**
+   ![Expand Dataset](/DatasetImages/d8.png)
 
-We can use dataset in two ways inside a testcase. One way is applying it directly to the testcase and other way is applying it only to the shared steps i.e, via For Loop. First method's steps are mentioned below and for the other one, please refer 'for loop' section.
+---
 
- 1. Goto test case page.
- 
- 2. Select desired test case and that must contains variables same as that in the created dataset.
- 
- 3. Open testcase editor of selected test case. 
- 
- 4. Click on the dataset dropdown button on the top mid-right corner of testcase editor page.
- 
- ![d17](/DatasetImages/d17.png)
- 
- 5. Select created dataset and the selected one's name will be shown on the field.
+## 🔄 Using Datasets in Test Flows
 
- ![d18](/DatasetImages/d18.png)
- 
- ![d19](/DatasetImages/d19.png)
+Leverage datasets effectively within your test flows for enhanced testing precision:
 
- Note: In the first method, the variables of the test case will be overridden using only the values from the first override value column, while the other columns are ignored.
+1. **Link Dataset to Test Case**:
+   In the test flow page, attach your dataset to a suite node or directly to individual test cases for dynamic data application.
 
+   ![Link Dataset](/DatasetImages/d20.png)
 
- **Adding Dataset to Test Flow**
+2. **Select Dataset in Editor**:
+   Choose the appropriate dataset from the dropdown in the suite node editor to apply it to your test cases.
 
- We can use dataset in two ways inside a testflow. One way is applying it directly to the testcase listed in suite node editor and other way is applying it only to the shared steps i.e, via For Loop. First method's steps are mentioned below and for the other one, please refer 'for loop' section.
+   ![Select Dataset](/DatasetImages/d21.png)
 
- 1. Goto test flowpage.
- 
- 2. Create a flow
- 
- 3. Add suite node and add testcase which contains variables same as that in the created dataset.
- 
- 4. Click on the dataset dropdown button near each added testcase in the suite node editor.
- 
- ![d20](/DatasetImages/d20.png)
- 
- 5. Select created dataset and the selected one's name will be shown on the field.
+---
 
-![d21](/DatasetImages/d21.png)
+## 📥 Importing and Exporting Data
 
-![d22](/DatasetImages/d22.png)
+1. **Export to CSV**:
+   Download your dataset template or current data as a CSV file, modify it externally, and re-import for updated testing scenarios.
 
-Note: In the first method, the variables of the test case will be overridden using only the values from the first override value column, while the other columns are ignored.
+   ![Export CSV](/DatasetImages/d11.png)
 
-**Update Dataset**
+2. **Import Updated Data**:
+   Reintegrate your modified CSV files to update datasets with new or changed data seamlessly.
 
-If any change is needed for the created dataset. The user has an option to edit and update the set. Let’s see how this can be done.
+   ![Import CSV](/DatasetImages/d12.png)
 
+---
 
-1. Click on dataset tab of the global menu
+## 🛠️ Dataset Maintenance
 
-2. Click on the three dots (meat balls) button near the created dataset
+### Update or Delete Datasets
 
-3. Select update from the options
+- **Update Dataset**:
+  Make necessary changes to your dataset through the update option in the dataset tab.
 
-![d23](/DatasetImages/d23.png)
+  ![Update Dataset](/DatasetImages/d23.png)
 
-4. After making required changes, click on Update button
+- **Delete Dataset**:
+  Remove unnecessary datasets to keep your data management streamlined.
 
-![d24](/DatasetImages/d24.png)
+  ![Delete Dataset](/DatasetImages/d25.png)
 
-**Delete Dataset**
+---
 
-If the dataset is unnecessary, it can be deleted or removed. Let’s see how a dataset can be deleted.
+### Dynamic Filtering and Navigation
 
-1. Click on the meat balls button
+- **Dataset Filters**:
+  Quickly find datasets by maintainer or name using dynamic filters that update your view instantly.
 
-2. Click on delete
+  ![Dataset Filters](/DatasetImages/d27.png)
 
-![d25](/DatasetImages/d25.png)
+- **Page Navigation**:
+  Move between different dataset management screens easily, enhancing your workflow efficiency.
 
-3. Click Delete button from the confirmation box
+  ![Navigation](/DatasetImages/d28.png)
 
-![d26](/DatasetImages/d26.png)
-
-Hence the dataset will be deleted.
-
-**Dataset Filter**
-
-AssureQA allows users to find a particular dataset from among multiple datasets either by search or by using maintainer filter.
-
-![d27](/DatasetImages/d27.png)
-
-The highlighted portion in the image showcases the available filters within the Dataset. These filters help users to: choose a Maintainer to access created datasets, search for specific one by their names, and use the reset button to reset the filter settings as needed.
-
-**Navigation**
-
-Users have the ability to navigate to other pages using this option.
-
-![d28](/DatasetImages/d28.png)
+Harness these advanced features in AssureQA to create, manage, and utilize datasets effectively, ensuring your testing is both thorough and efficient. Dive into dataset management with confidence and precision!

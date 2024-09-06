@@ -42,5 +42,5 @@ AssureQA makes it super easy to integrate with third-party services like **Brows
 
 ---
 
-💡 **Note**:  
-For all third-party integrations, you just need the **username** and **access key**.
+> [!Note]
+> For all third-party integrations, you just need the **username** and **access key**.
