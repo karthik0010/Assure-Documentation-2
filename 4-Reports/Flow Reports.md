@@ -1,49 +1,62 @@
-## Flow Reports
-On this page, all flow reports are displayed.
+# 🚀 Overview of Flow Reports in AssureQA
 
-Users can view the flow reports name, run time, run by, status (whether passed, failed, or aborted), and action (accessible via the three dots option, which includes a delete button).
+Flow Reports in AssureQA provide a comprehensive look at the outcomes of your test flows, allowing for deep insights and effective management of your test results.
 
-Using the action option, the user can delete reports by clicking the delete button.
+## 🛠️ Accessing Flow Reports
 
-![FR-1](./ReportsImage/FR-1.png)
+### Viewing Flow Reports
 
-Users have the flexibility to filter flow reports by status (passed, failed, aborted, in-progress, container creating, terminated) and maintainer.
+Each flow report on this page includes essential details such as the report's name, runtime, who ran the test, its status (passed, failed, or aborted), and available actions.
 
-Additionally, they can search for a specific flow report by entering its name in the search field. To remove all filters, users can simply click the ‘reset’ button.
+![Flow Reports Overview](./ReportsImage/FR-1.png)
 
-![FR-2](./ReportsImage/FR-2.png)
+### Managing Reports
 
-**Detailed flow report**
+- **Delete Reports**: Utilize the action options by clicking the three dots next to a report to access and press the delete button if needed.
 
-To view a detailed flow report, follow these steps
+### Filtering and Searching
 
+- **Filters**: You can filter reports by status (passed, failed, etc.) or maintainer for more precise viewing.
+- **Search**: Look up specific reports by their names using the search field. Reset all filters with a simple click on the ‘reset’ button.
 
-Select the desired flow report
+![Filter and Search](./ReportsImage/FR-2.png)
 
-![FR-3](./ReportsImage/FR-3.png)
+---
 
-The user is then directed to the detailed structure of the flow, with each node highlighted according to its status (passed or failed).
+## 📊 Detailed Flow Report Analysis
 
-![FR-4](./ReportsImage/FR-4.png)
+To dive deeper into any flow report, follow these streamlined steps:
 
-Clicking on each suite node will display a detailed summary report. This report includes a pie chart illustrating the status, along with details such as the browser used for execution, start time, environment, executed by, duration, execution method, and a list of test cases with their corresponding status.
+1. **Select a Report**:
+   Choose the flow report you wish to examine for more detailed insights.
 
-![FR-5](./ReportsImage/FR-5.png)
+   ![Select Report](./ReportsImage/FR-3.png)
 
-Users can download a detailed PDF report and CSV report by clicking the three dots.
+2. **View Detailed Structure**:
+   The detailed report page shows the structure of the flow with each node highlighted based on its status.
 
-![FR-6](./ReportsImage/FR-6.png)
+   ![Flow Structure](./ReportsImage/FR-4.png)
 
-User can enable this toggle to view the failed test steps.
+3. **Suite Node Details**:
+   Clicking on a suite node within the report will pull up a detailed summary. This includes a pie chart of statuses, and specifics like the browser used, start time, environment, and a list of test cases with their statuses.
 
-![FR-7](./ReportsImage/FR-7.png)
+   ![Suite Node Summary](./ReportsImage/FR-5.png)
 
-User can click this option to **report a bug** when it is enabled; otherwise, the option will appear disabled. To enable this option, each user must integrate their Jira account by providing unique inputs
+4. **Download Reports**:
+   Download a detailed PDF, CSV report, or screenshots of the flow by clicking the three dots in the report menu.
 
-![FR-8](./ReportsImage/FR-8.png)
+   ![Download Options](./ReportsImage/FR-6.png)
 
-By clicking the three dots, users can download flow PDF, flow CSV, and flow screenshot PDF.
+5. **Failure Details Toggle**:
+   Enable the toggle to view details of failed test steps, enhancing your ability to analyze and address issues.
 
-![FR-9](./ReportsImage/FR-9.png)
+   ![Failure Details](./ReportsImage/FR-7.png)
 
+6. **Bug Reporting**:
+   Report issues directly by clicking the option to report a bug, which is enabled once the user integrates their Jira account.
 
+   ![Report Bug](./ReportsImage/FR-8.png)
+
+---
+
+With these tools and insights, AssureQA makes it straightforward to manage, analyze, and act on the data from your flow tests, ensuring continuous improvement and effective bug tracking. 🌟 Explore these features to enhance your testing processes and outcomes!

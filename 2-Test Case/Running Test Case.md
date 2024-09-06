@@ -1,130 +1,58 @@
-# Running the Testcase
+# 🚀 Running a Test Case: A Detailed Guide
 
-Now let's see how the Testcase can be executed.
+Ready to run your test cases in AssureQA? Follow these steps to execute them smoothly, whether you are testing manually or using automated methods.
 
-By clicking the Test config option the user would be able to select the required browser and environment if needed. Here we can change testcase name, description and Tags as per user wish.
+## 🛠️ Step 1: Setting Up Your Test Configuration
 
-![Test config(Running Testcase)](./TestcaseImages/1.Test%20config(Running%20Testcase).png)
+Before running a test, configure the necessary settings to match your testing requirements.
 
-Another option inside the config is advanced settings which includes adaptive wait, always take screenshot and screen resolution setup. When employing Adaptive wait, each step in the testcase waits for an element to the provided time frame.
+### 🌐 Test Configuration Options
 
-Also, there's option for selecting screenshots. Enable the toggle button if you want to take screenshots in all steps, and disable it if screenshots are not needed in all steps. This is also dependent on the test steps screenshot condition.
+1. **Access Test Config**:  
+   Start by navigating to your test case and clicking on the *"Test Config"* option. Here you can select the desired browser and environment.
 
-**Test step settings**
+   ![Test Config](./TestcaseImages/1.Test%20config(Running%20Testcase).png)
 
-Clicking on a test step reveals these options, which vary depending on the selected Action.
+2. **Advanced Settings**:  
+   Dive into advanced settings like adaptive wait times, screenshot capture preferences, and screen resolution setup.
 
-![TestSteps(Running Testcase)](./TestcaseImages/2.TestSteps(Running%20Testcase).png)
+3. **Selecting Screenshots**:  
+   Decide if you want screenshots to be taken at all steps or only specific ones. Toggle the option as per your need.
 
-In this instance, "SETTEXT" has been chosen, offering options such as "Definition" allowing the user to input plain text and incorporate variables and built-in functions as needed.
+### ⚙️ Step-by-Step Execution
 
-![Input Values to definition(Running Testcase)](./TestcaseImages/3.Input%20Values%20to%20definiton(Running%20Testcase).png)
+1. **Executing the Test Case**:  
+   Click on the test step to reveal specific options. Adjust settings according to the action needed.
 
-Following this, the element name is identified, and users can set it according to their preferences until it is utilized for the scripting healing.
+   ![Test Steps](./TestcaseImages/2.TestSteps(Running%20Testcase).png)
 
-Moving forward, there are locators that can be edited or added based on user requirements
+2. **Input Definitions and Set Conditions**:  
+   For actions like "SETTEXT", input necessary definitions. Choose conditions like "Mark error and continue" based on your testing strategy.
 
-**Advanced settings inside Test Step**
+   ![Input Values](./TestcaseImages/3.Input%20Values%20to%20definition(Running%20Testcase).png)
 
-Here we can see 3 conditions
+3. **Save and Run**:  
+   After setting up your test steps, save the configuration and start the test run. Monitor the process and make adjustments as needed.
 
-**1.**  **Mark error and stop**  
-**2.**  **Mark error and continue**  
-**3.**  **Mark warning and continue**
+---
 
-![4.Three conditions(Running Testcase)](./TestcaseImages/4.Three%20conditions(Running%20Testcase).png)
+## 🚦 Managing Errors and Conditions
 
-**Mark error and Stop**
-This is the default condition for all test steps. If this condition is applied, when that specific step is executed, the run comes to a halt.
+### Error Handling
 
-![5.Mark Error and Stop(Running Test Case)](./TestcaseImages/5.Mark%20Error%20and%20Stop(Running%20Test%20Case).png)
+1. **Choose Error Conditions**:  
+   Set up how the system handles errors during the test:
+   - **Mark error and stop**: The test stops at the error.
+   - **Mark error and continue**: The test marks the error but continues.
+   - **Mark warning and continue**: Only a warning is issued, and the test continues.
 
-**Mark error and continue**
+   ![Error Conditions](./TestcaseImages/4.Three%20conditions(Running%20Testcase).png)
 
-![Mark Error and Continue(Running TestCase)](./TestcaseImages/6.Mark%20Error%20and%20Continue(Running%20TestCase).png)
+2. **Live Monitoring**:  
+   Enable live monitoring to view test execution in real-time, enhancing your control over the testing process.
 
-When this condition is chosen, the step will pass but it marks an error for that specific step.
+   ![Live Monitoring](/images/LV.png)
 
-**Mark warning and continue**
+---
 
-![Mark Warning and Continue(Running Test Case)](./TestcaseImages/7.Mark%20Warning%20and%20Continue(Running%20Test%20Case).png)
-
-When this condition is used then that step displays a warning and continues the execution
-
-**Report history**
-
-Clicking on this icon allows the user to view all reports related to that particular test case.
-
-![Reports of all test cases(Running Test case)](./TestcaseImages/8.Reports%20of%20all%20test%20cases(Running%20Test%20case).png)
-
-**Passed testcase**
-
-Since all steps have passed, it indicates successful execution.
-
-![Passed TestCase(Running TestCase)](./TestcaseImages/9.Passed%20TestCase(Running%20TestCase).png)
-
-**Failed testcase**
-
-A step has failed here, leading to the termination of the execution at that particular step.
-
-![Failed Test Case(Running Test Case)](./TestcaseImages/10.Failed%20Test%20Case(Running%20Test%20Case).png)
-
-**Show failed step**
-
-This feature enables the user to view all the failed steps.
-
-![Show only failed(Running Test Case)](./TestcaseImages/11.Show%20only%20failed(Running%20Test%20Case).PNG)
-
-**Live view**
-Assureqa also allows user to view the live view of the test runs.For that, just click on the toggle button at the testcase editor and so the live view will be available at the view section at the testcase editor as well as inside the unit report.
-
--Inside test case editor
-
-![LV](/images/tc_d.png)
-
--Inside test report
-
-![LV](/images/tc_d.png)
-
-**Edit Actions in Test Step**
-We have several options available to modify steps, including Delete, Enable, Disable, Cut, Copy, and the ability to create a reusable step.Let's explore the procedures connected with these buttons.
-
-**Delete step**
-
-This feature enables the user to remove a step.
-
-![Delete TestStep](./TestcaseImages/12.Delete%20Step(Running%20Test%20Case).png)
-
-**Enable step**
-
-This functionality permits the user to activate a disabled step.
-
-![Enable TestStep(Running TestCase)](./TestcaseImages/13.Enable%20TestStep(Running%20TestCase).png)
-
-**Disable step**
-
-This functionality empowers the user to deactivate a step.
-
-![Disable TestSep(Running Test Case)](./TestcaseImages/14.Disable%20TestSep(Running%20Test%20Case).png)
-
-**Cutting a Test Step**
-
-![Cutting TestStep(Running TestCase)](./TestcaseImages/15.Cutting%20TestStep(Running%20TestCase).png)
-
-![Pasting TestStep(Running Test Case)](./TestcaseImages/16.Pasting%20TestStep(Running%20Test%20Case).png)
-
-This feature enables the user to cut and paste a test step to an exact position. User can also click and drag test step to arrange steps.
-
-**Copying a Test Step**
-
-![Copy TestStep(Running Test Case)](./TestcaseImages/17.Copy%20TestStep(Running%20Test%20Case).png)
-
-![Pasting Copied TestStep(Running Test Case)](./TestcaseImages/18.Pasting%20Copied%20TestStep(Running%20Test%20Case).png)
-
-This functionality enables the user to copy and paste the test step to a precise position with a simple click on the destination.
-
-**Reusable step icon**
-
-![Create Reusable Test Step(Running Test Case)](./TestcaseImages/19.Create%20Reusable%20Test%20Step.png)
-
-This icon allows user to create reusable steps.
+Now, you're equipped to run and manage test cases efficiently with AssureQA! Keep exploring the settings to optimize your testing process. 🌟

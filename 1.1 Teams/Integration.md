@@ -1,31 +1,46 @@
-## Integration
+# 🔗 Integrating Third-Party Services in AssureQA
 
-AssureQA supports the third-party services. Our platform effortlessly integrates with a range of services, including  Browser stack, lambdatest, Saucelabs.
-A team owner or team admin can integrate these services to their team which will be made accessible to all members of the team.
+AssureQA makes it super easy to integrate with third-party services like **BrowserStack**, **LambdaTest**, and **SauceLabs**. Once integrated, all team members can access these services seamlessly. Let’s see how to set it all up!
 
-![q1](/1.1%20Teams/TeamImages/q1.png)
+## 🛠️ Step-by-Step Integration
 
-> [!Note]  
-> You just need the username and Access Key for all third party integration 
+### 🐑 LambdaTest Integration
 
-**Lambdatest**
+1. **Click "Connect"**:  
+   Start by clicking the **"Connect"** button next to LambdaTest.
 
-1. Click the "Connect" button on LambdaTest.
+   ![LambdaTest Connect](./TeamImages/q2.png)
 
-![q2](/1.1%20Teams/TeamImages/q2.png)
+2. **Input Credentials**:  
+   Enter your **username** and **access key**, then click **Connect**.
 
-2. Enter the username and access key, then click "Connect."
+   ![Input LambdaTest credentials](./TeamImages/q3.png)
 
-![q3](/1.1%20Teams/TeamImages/q3.png)
+---
 
-**Saucelab**
-1. Click the "Connect" button on Saucelab.
-2. Enter the username, access key, and select region, then click "Connect."
+### 🍅 SauceLabs Integration
 
-![q4](/1.1%20Teams/TeamImages/q4.png)
+1. **Click "Connect"**:  
+   Begin by selecting **"Connect"** next to SauceLabs.
 
-**Browserstack** 
-1.  Click the "Connect" button on Browserstack
-2.  Enter the username ,accesskey , then click on connect. 
+2. **Enter Credentials**:  
+   Input your **username**, **access key**, and choose a **region**. Click **Connect**.
 
-![q5](/1.1%20Teams/TeamImages/q5.png)
+   ![Input SauceLabs credentials](./TeamImages/q4.png)
+
+---
+
+### 🌐 BrowserStack Integration
+
+1. **Click "Connect"**:  
+   Select the **"Connect"** button next to BrowserStack.
+
+2. **Enter Credentials**:  
+   Provide your **username** and **access key**, then hit **Connect**.
+
+   ![BrowserStack Connect](./TeamImages/q5.png)
+
+---
+
+💡 **Note**:  
+For all third-party integrations, you just need the **username** and **access key**.

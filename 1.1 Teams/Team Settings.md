@@ -1,29 +1,59 @@
-## Settings 
+# 🔗 Team Settings Management in AssureQA
 
+AssureQA allows team owners and administrators to manage their teams effectively. Below you’ll find various actions you can perform to manage your team settings.
 
-**Edit the team** 
+## 🛠️ Step-by-Step Management
 
-- Team owners (or administrators) can edit the team name
+### 🏷️ Edit the Team
 
-![SS1](./TeamImages/SS1.png)
+1. **Click "Edit"**:  
+   Start by clicking the **"Edit"** button to modify your team name.
 
-**Quit the team**
+   ![Edit Team](./TeamImages/SS1.png)
 
-- When you leave a team, you will lose access to all projects associated with that team.
+2. **Update Team Info**:  
+   Enter the new team name and confirm your changes.
 
-![SS2](./TeamImages/SS2.png)
+---
 
-> [!NOTE]
-> If the team owner decides to quit, they must transfer ownership to another member before they can leave the team. 
+### 🚪 Quit the Team
 
-**Transfer the team** 
+1. **Click "Leave"**:  
+   To leave a team, click the **"Leave"** button.
 
-- The team owner can transfer ownership permissions to any member of the team.
+   ![Leave Team](./TeamImages/SS2.png)
 
-![SS3](./TeamImages/SS3.png)
+2. **Confirm Leave**:  
+   Confirm your decision. Remember, leaving the team means you will lose access to all projects associated with it.
 
-**Delete the team** 
-  
-- When a team is deleted. all projects associated with that team are deleted simultaneously and cannot be recovered.
+   > [!NOTE]
+   > If you are the team owner, ensure to transfer ownership before leaving.
 
-![SS4](./TeamImages/SS4.png)
+---
+
+### 🔑 Transfer the Team
+
+1. **Choose "Transfer"**:  
+   Select the **"Transfer Ownership"** option within the team settings.
+
+   ![Transfer Team](./TeamImages/SS3.png)
+
+2. **Select Member**:  
+   Choose a team member to transfer ownership to and confirm.
+
+---
+
+### 🗑️ Delete the Team
+
+1. **Select "Delete"**:  
+   Navigate to the team settings and click on **"Delete"**.
+
+   ![Delete Team](./TeamImages/SS4.png)
+
+2. **Confirm Deletion**:  
+   Confirm the deletion. Keep in mind, this action is irreversible and will delete all projects associated with the team.
+
+---
+
+💡 **Note**:  
+Manage your team wisely. Changes like deleting the team or transferring ownership are significant and should be handled carefully.

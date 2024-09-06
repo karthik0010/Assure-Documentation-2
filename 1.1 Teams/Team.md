@@ -1,91 +1,99 @@
+# 👥 Team Creation and Management in AssureQA
 
-## Team Creation
-Assureqa provides team management features where each team can include multiple projects and members. The team owner can invite members to join the team and assign specific roles and permissions to protect projects and data. Team members can share data, edit tasks, and collaborate more effectively, enhancing overall team productivity.
+AssureQA allows you to manage teams, create projects, and collaborate seamlessly. Whether you’re the **team owner** or a **team member**, this guide will walk you through everything you need to know!
 
-**How to build a Team ?**
+## 🚀 How to Build a Team?
 
-1. Click on the build your team button 
+1. **Create a Team**:  
+   Click the **"Build Your Team"** button to begin.
 
-![B1](./TeamImages/B1.png)
-   
-2. Enter the team name and click on create button the person who create the team will become the team owner.
+   ![Build Your Team](./TeamImages/B1.png)
 
-![B2](./TeamImages/B2.png)
+2. **Name Your Team**:  
+   Enter the **team name** and click **Create**. The person creating the team becomes the **team owner**.
 
-> [!Note] 
-> A team can be created by anyone who signs up on the Assureqa platform.
+   ![Team Name](./TeamImages/B2.png)
 
-  **Project** 
- 
-Assureqa enables users to create independent workspaces, known as projects, where they can develop test cases, workflows, variables, and datasets.
-Assureqa offers two types of projects  :web automation and API testing 
+💡 **Note**:  
+Anyone Signed up on AssureQA can create a team.
 
-**Project Creation**
+---
 
-1. Click on Add Project
+### 🌟 Project Creation
 
-![B3](./TeamImages/B3.png)
+Projects in AssureQA act as independent workspaces for **web automation** or **API testing**. Here's how you can create one:
 
-2. Enter the project name, select the desired type—either API test or web automation—and then click on "Create."
+1. **Click "Add Project"**:  
+   Hit the **Add Project** button.
 
-![B4](./TeamImages/B4.png)
- 
- **Inviting team members** 
+2. **Enter Project Details**:  
+   Name your project, choose the type (web automation or API testing), and click **Create**.
 
-Assureqa enables team owners and admins to add members to their respective teams, facilitating collaborative work on creating, editing, and managing . This leads to more comprehensive and effective test coverage. Additionally, it enhances communication and collaboration within the project.
+   ![Add Project](./TeamImages/B4.png)
 
-1. Click on the invite button 
+---
 
-![B5](./TeamImages/B5.png)
+### ✉️ Inviting Team Members
 
-2. Enter a valid email address, select a role (such as Project Admin, Editor, Reader, Forbidden, or Custom), and click "Send Invite." The recipients will then receive an email to join the team.
+1. **Click "Invite"**:  
+   Head over to the **Invite** button.
 
-![B6](./TeamImages/B6.png)
+   ![Invite Team Members](./TeamImages/B5.png)
 
-> [!NOTE]
-> who can invite the member to the team?
-> Team owner and team admin can invite the member to the team 
+2. **Enter Email & Assign Role**:  
+   Input the member's **email**, select their **role** (e.g., Project Admin, Editor, Reader), and send the invite.
 
-**Team Role**
+   ![Assign Role](./TeamImages/B6.png)
 
-There are two types of role in team management one is team member and   other team member 
+💡 **Note**:  
+Only the **team owner** and **team admin** can invite new members.
 
-1. Click on the icon next to the member's name, then select the desired team role.
+---
 
-![B7](./TeamImages/B7.png)
+### ⚙️ Managing Team Roles
 
-2. Select either Team Admin or Team Member, and then click "Update."
+1. **Change Team Roles**:  
+   Click the icon next to the member’s name to assign them a new role (Team Admin or Team Member).
 
-![B8](./TeamImages/B8.png)
+   ![Change Roles](./TeamImages/B7.png)
 
-> [!Note]
-> Only the team owner and team admin have the ability to change team roles.
+2. **Update Role**:  
+   Select the desired role and click **Update**.
 
- **Removing a team member**
- 
- 1. Click the icon next to the member's name and select the "Delete" option from the dropdown menu.
+   ![Update Role](./TeamImages/B8.png)
 
-![B9](./TeamImages/B9.png)
+---
 
-2. Click on the delete button displaying on the warning message 
+### 🚫 Removing Team Members
 
-![B10](./TeamImages/B10.png)
+1. **Click the Delete Icon**:  
+   Next to the member’s name, click the delete icon.
 
-> [!Note]
-> Only the team owner and team admin can remove members from the team.
- 
- **Project permission**
- 
-1. Click the icon next to the member's name, then select "Project Permissions."
+   ![Delete Member](./TeamImages/B9.png)
 
-![B11](./TeamImages/B11.png)
+2. **Confirm Deletion**:  
+   Confirm by clicking the **Delete** button.
 
-2. Choose the desired role from the dropdown menu and click the "Update" button.
+   ![Confirm Delete](./TeamImages/B10.png)
 
-![B12](./TeamImages/B12.png)
+💡 **Note**:  
+Only **team owners** and **admins** can remove members.
 
-> [!Note]
-> Only team Owner and Project Admin can change the permissions of members within their team.
+---
 
+### 🔒 Project Permissions
 
+1. **Access Project Permissions**:  
+   Click the icon next to the member’s name and choose **Project Permissions**.
 
+   ![Project Permissions](./TeamImages/B11.png)
+
+2. **Set Permissions**:  
+   Select the appropriate permission level from the dropdown menu and hit **Update**.
+
+   ![Update Permissions](./TeamImages/B12.png)
+
+💡 **Note**:  
+Only **team owners** and **project admins** can modify permissions.
+
+---
