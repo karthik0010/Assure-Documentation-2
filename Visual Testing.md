@@ -1,31 +1,50 @@
+# 👁️ Visual Testing in AssureQA
 
-## Visual testing
+AssureQA offers a **Visual Testing** feature to ensure a consistent user experience by identifying design changes early. This feature captures and compares screenshots of the UI during testing to detect any unintended changes or visual discrepancies. By default, Visual Testing is disabled for test steps, but you can enable it for specific steps that require visual validation.
 
-Assureqa offers a Visual Testing feature. This ensures a consistent user experience by identifying design changes early .It involves capturing and comparing screenshots of the UI during testing to detect any unintended changes or visual discrepancies. Visual Testing is disabled by default for test steps, but you can enable it for specific steps requiring visual validation.
+---
 
-**Steps to configure visual testing for a test step within a test case**
+## 🔧 Configuring Visual Testing for a Test Step
 
-1. Go to testcase page select the required testcase to perform
-2. Click on test step, enable visual testing in the test step by clicking on the toggle button.
-3. Click on save button
+To enable visual testing for a specific test step, follow these steps:
 
-![vi1](/images/vi1.png)
+1. **Navigate to the Test Case Page**:
+   - Select the required test case to configure visual testing.
 
-> [!Note:]
-> Once you enable visual testing, AssureQA requires a baseline image corresponding to the test step to perform visual testing. So, the visual comparison will appear on the test step only after a run.
-> When performing visual testing with AssureQA, you need to compare the current image (actual image) with the original image (baseline image) to ensure they match.
+2. **Enable Visual Testing**:
+   - Click on the test step where visual validation is needed, and toggle the **Visual Testing** option.
 
-**Running visual test on testcase**
-1. After enabling the visual testing button, click on the run button
-2. A baseline image has been created, run the test again to compare it with the original image.
-3. In the second run, there appears an icon indicating the visual validation.
+3. **Save the Changes**:
+   - Click on the **Save** button to confirm the settings.
 
-![vi2](/images/vi2.png)
+   ![vi1](/images/vi1.png)
 
-4. Upon clicking the icon, a pop-up will be displayed.
-The images contain visual differences, then report will show the comparison as "true." If there are no differences, it will display as "false."
+> [!NOTE]
+> Once you enable visual testing, AssureQA requires a **baseline image** for the selected test step. The visual comparison will appear only after a test run. Visual testing compares the current image (actual) with the original image (baseline) to ensure they match.
 
-![vi3](/images/vi3.png)
+---
 
-> [!Note:]
-> You can also run it on the Test flow.
+## 🚀 Running Visual Tests on a Test Case
+
+1. **Run the Test**:
+   - After enabling visual testing, click the **Run** button to execute the test.
+
+2. **Capture the Baseline Image**:
+   - On the first run, a baseline image will be captured. Run the test again to compare it with the baseline image.
+
+3. **Visual Validation**:
+   - On the second run, an icon indicating visual validation will appear.
+
+   ![vi2](/images/vi2.png)
+
+4. **Review Visual Comparison**:
+   - Click the visual validation icon to display a pop-up with the comparison between the actual image and the baseline image.
+   - If the images contain visual differences, the report will show the comparison as "true." If there are no differences, it will display as "false."
+
+   ![vi3](/images/vi3.png)
+
+> [!NOTE]
+> Visual Testing can also be executed in a **Test Flow**.
+
+---
+
