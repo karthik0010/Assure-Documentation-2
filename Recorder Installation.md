@@ -1,10 +1,10 @@
-# 🛠️ UI Sensor Installation for AssureQA
+# 🛠️ Recorder Installation for AssureQA
 
-To capture test events, AssureQA requires the installation of its Chrome extension, known as the **UI Sensor**. This extension allows users to record test cases directly from their browser. Follow these steps to install the UI sensor and get started with your test recordings.
+To capture test events, AssureQA requires the installation of its Chrome extension, known as the **Recorder**. This extension allows users to record test cases directly from their browser. Follow these steps to install the UI sensor and get started with your test recordings.
 
 ---
 
-## 📥 Installing the AssureQA UI Sensor
+## 📥 Installing the AssureQA Recorder
 
 1. **Start Recording a Test Case**:
    - Click on the **Record new testcase** button to open the recording page.
@@ -25,7 +25,7 @@ To capture test events, AssureQA requires the installation of its Chrome extensi
 
 ## 🔧 Configuring the Extension
 
-After installing the UI Sensor, you’ll need to configure a few settings to ensure it works correctly for your tests.
+After installing the Recorder, you’ll need to configure a few settings to ensure it works correctly for your tests.
 
 1. **Manage Extension Settings**:
    - Once installed, go to your Chrome extension settings by clicking on the **Manage Settings** button, and then select **Details**.
@@ -42,7 +42,7 @@ After installing the UI Sensor, you’ll need to configure a few settings to ens
 
 ## 🚀 Start Recording Test Cases
 
-Once the UI sensor is installed and configured, you’re ready to start recording your test cases using AssureQA's built-in recorder.
+Once the Recorder is installed and configured, you’re ready to start recording your test cases using AssureQA's built-in recorder.
 
    ![UI.record-7](/images/UI.record-7.png)
 
