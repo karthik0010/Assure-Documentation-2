@@ -13,7 +13,7 @@ The Shared Step page in AssureQA allows you to view, filter, and manage all the 
      - **Tags**: Filter by specific tags to quickly find relevant test cases.
      - **Search**: Use the search bar to locate shared test cases by name.
 
-   ![Filter Shared Test Cases](/SharedImages/1.Filter%20in%20shared.png)
+   ![Filter Shared Test Cases](./SharedImages/1.Filter%20in%20shared.png)
 
 ---
 
@@ -24,12 +24,12 @@ The Shared Step page in AssureQA allows you to view, filter, and manage all the 
 1. **Access Edit Options**:
    - Click on the three dots next to a shared test case to reveal options like **Update** and **Delete**.
 
-   ![Access Options](/SharedImages/2.Click%203%20dots.png)
+   ![Access Options](./SharedImages/2.Click%203%20dots.png)
 
 2. **Update the Shared Test Case**:
    - Select **Update** to modify the shared test case’s name, description, or tags. After making your changes, click **Update** to save.
 
-   ![Update Shared Test Case](/SharedImages/ClickUpdate.png)
+   ![Update Shared Test Case](./SharedImages/3.Click%20Update.png)
 
 ---
 
@@ -38,6 +38,6 @@ The Shared Step page in AssureQA allows you to view, filter, and manage all the 
 1. **Delete a Shared Test Case**:
    - To delete a shared test case, click on the three dots, select **Delete**, and confirm the deletion in the dialog box.
 
-   ![Delete Shared Test Case](/SharedImages/ClickDelete.png)
+   ![Delete Shared Test Case](./SharedImages/4.Cick%20Delete.png)
 
 ---

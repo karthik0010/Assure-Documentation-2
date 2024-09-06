@@ -8,7 +8,7 @@ Editing shared steps in AssureQA offers flexibility by allowing users to modify,
 
 - **How to Delete**: Select the required test step using the checkbox, then click the **Delete** button to remove the step.
 
-   ![Delete Step](/SharedImages/1.Delete%20steps%20in%20shared.png)
+   ![Delete Step](./SharedImages/1.Delete%20steps%20in%20shared.png)
 
 ---
 
@@ -16,7 +16,7 @@ Editing shared steps in AssureQA offers flexibility by allowing users to modify,
 
 - **How to Enable**: Select a previously disabled step and click the **Enable** button to activate it.
 
-   ![Enable Step](/SharedImages/2.Enable%20step.png)
+   ![Enable Step](./SharedImages/2.Enable%20step.png)
 
 ---
 
@@ -24,7 +24,7 @@ Editing shared steps in AssureQA offers flexibility by allowing users to modify,
 
 - **How to Disable**: To temporarily remove a step from execution, select it and click the **Disable** button.
 
-   ![Disable Step](/SharedImages/3.Disable%20Test%20step.png)
+   ![Disable Step](./SharedImages/3.Disable%20Test%20step.png)
 
 ---
 
@@ -32,7 +32,7 @@ Editing shared steps in AssureQA offers flexibility by allowing users to modify,
 
 - **How to Cut and Paste**: Select the step, then use the **Cut** button to remove it from its current position and paste it into a new location.
 
-   ![Cut Step](/SharedImages/4.Cut%20test%20step.png)
+   ![Cut Step](./SharedImages/4.Cut%20test%20step.png)
 
 ---
 
@@ -40,7 +40,7 @@ Editing shared steps in AssureQA offers flexibility by allowing users to modify,
 
 - **How to Copy and Paste**: Copy a test step and place it into a new location by selecting the step, using the **Copy** button, and then pasting it into the desired position.
 
-   ![Copy Step](/SharedImages/5.Copy%20test%20step.png)
+   ![Copy Step](./SharedImages/5.Copy%20test%20step.png)
 
 ---
 
