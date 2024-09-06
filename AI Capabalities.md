@@ -1,4 +1,4 @@
-# 🤖 AI-Powered Testing and Self Healing in AssureQA
+# 🤖 AI-Powered Testing
 
 AssureQA leverages AI technology to enhance the reliability and resilience of test execution, making your test scripts more adaptive to UI changes. The AI operates using two powerful methods that work in tandem:
 
