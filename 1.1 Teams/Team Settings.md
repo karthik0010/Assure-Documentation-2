@@ -55,5 +55,5 @@ AssureQA allows team owners and administrators to manage their teams effectively
 
 ---
 
-💡 **Note**:  
-Manage your team wisely. Changes like deleting the team or transferring ownership are significant and should be handled carefully.
+> 💡 [!NOTE]  
+> Manage your team wisely. Changes like deleting the team or transferring ownership are significant and should be handled carefully.
