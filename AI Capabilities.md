@@ -1,4 +1,4 @@
-# 🤖 AI-Powered Testing
+# 🤖 AI Capabilities of AQA
 
 AssureQA leverages AI technology to enhance the reliability and resilience of test execution, making your test scripts more adaptive to UI changes. The AI operates using two powerful methods that work in tandem:
 
@@ -27,7 +27,7 @@ The **Character Recognition** method is a fallback mechanism that allows AssureQ
 
 ---
 
-## 🔄 Script Healing: Adaptive Testing
+## 🔄 Script Healing
 
 The **Script Healing** feature of AssureQA complements the Character Recognition method by automatically adapting to changes in UI elements, ensuring that your test cases continue to work even when locators change.
 
