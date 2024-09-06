@@ -4,7 +4,7 @@ AssureQA makes it super easy to integrate with third-party services like **Brows
 
 ## 🛠️ Step-by-Step Integration
 
-### 🐑 LambdaTest Integration
+### ☁️ LambdaTest Integration
 
 1. **Click "Connect"**:  
    Start by clicking the **"Connect"** button next to LambdaTest.
@@ -18,7 +18,7 @@ AssureQA makes it super easy to integrate with third-party services like **Brows
 
 ---
 
-### 🍅 SauceLabs Integration
+### ⚡ SauceLabs Integration
 
 1. **Click "Connect"**:  
    Begin by selecting **"Connect"** next to SauceLabs.
