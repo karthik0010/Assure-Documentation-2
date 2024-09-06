@@ -1,33 +1,49 @@
-## Edit Actions in shared test step
+# ✏️ Editing Shared Steps in AssureQA
 
-We have several options available to modify steps, including Delete, Enable, Disable, Cut, and Copy
+Editing shared steps in AssureQA offers flexibility by allowing users to modify, delete, enable, disable, or rearrange test steps. This guide provides a detailed overview of the available edit actions.
 
-**Delete step**
+## 🛠️ Editing Actions in Shared Test Steps
 
-Select the required test step using check box, and click on the delete button this feature enables the user to remove a step.
+### 1. Deleting a Test Step
 
-![Image1](./SharedImages/1.Delete%20steps%20in%20shared.png)
+- **How to Delete**: Select the required test step using the checkbox, then click the **Delete** button to remove the step.
 
-**Enable step**
+   ![Delete Step](/SharedImages/1.Delete%20steps%20in%20shared.png)
 
-This functionality permits the user to activate a disabled step.
+---
 
-![Image2](./SharedImages/2.Enable%20step.png)
+### 2. Enabling a Disabled Step
 
-**Disable step**
+- **How to Enable**: Select a previously disabled step and click the **Enable** button to activate it.
 
-This functionality empowers the user to deactivate a step.
+   ![Enable Step](/SharedImages/2.Enable%20step.png)
 
-![Image3](./SharedImages/3.Disable%20Test%20step.png)
+---
 
-**Cutting a Test Step**
+### 3. Disabling a Step
 
-This feature enables the user to cut and paste a test step to an exact position.
+- **How to Disable**: To temporarily remove a step from execution, select it and click the **Disable** button.
 
-![Image4](./SharedImages/4.Cut%20test%20step.png)
+   ![Disable Step](/SharedImages/3.Disable%20Test%20step.png)
 
-**Copying a Test Step**
+---
 
-This functionality enables the user to copy and paste the test step to a precise position with a simple click on the destination
+### 4. Cutting a Test Step
 
-![Image5](./SharedImages/5.Copy%20test%20step.png)
+- **How to Cut and Paste**: Select the step, then use the **Cut** button to remove it from its current position and paste it into a new location.
+
+   ![Cut Step](/SharedImages/4.Cut%20test%20step.png)
+
+---
+
+### 5. Copying a Test Step
+
+- **How to Copy and Paste**: Copy a test step and place it into a new location by selecting the step, using the **Copy** button, and then pasting it into the desired position.
+
+   ![Copy Step](/SharedImages/5.Copy%20test%20step.png)
+
+---
+
+
+
+By following these steps, you can easily edit and manage shared steps in AssureQA, ensuring your tests remain up to date and optimized for efficient execution.

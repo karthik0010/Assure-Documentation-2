@@ -1,19 +1,35 @@
-## Shared  Creation
+# ♻️ Creating Reusable Steps in AssureQA
 
-A shared testcase includes a set of test steps that can be reused to design other test cases.
+Reusable steps, or shared test cases, allow you to create a set of steps that can be reused across multiple test cases, saving time and ensuring consistency. This guide will walk you through creating shared steps in AssureQA.
 
-Let's explore how to create shared test. Navigate to the test case page and select the desired test case.
+## 🛠️ Step-by-Step Guide to Creating Shared Test Cases
+
+### Step 1: Navigate to the Test Case Page
+
+- Go to the test case page and select the test case from which you want to create reusable steps.
+
+### Step 2: Select Test Steps to Share
+
+- Click on the checkboxes next to the test steps you want to group into a reusable shared step.
+
+   ![Select Steps](/SharedImages/1.Click%20Shared%20button.png)
+
+### Step 3: Create the Shared Test
+
+- Once you’ve selected the steps, click on the **Group Step** icon located above the list of test steps. This action opens a dialog box where you can configure the shared steps.
+
+### Step 4: Name the Shared Test
+
+- In the dialog box, provide a meaningful name for the shared test in the **Shared Name** field. Optionally, you can also assign a tag to categorize the test for better organization.
+
+   ![Name Shared Test](/SharedImages/2.Naming%20Shared%20test.png)
+
+### Step 5: View the Created Shared Test
+
+- After creating the shared test, it will be saved, and you can view it on the **Shared Step Page**.
+
+   ![View Shared Test](/SharedImages/3.Shared%20test%20displayed%20in%20shared%20page.png)
+
+---
 
 
-Click on the checkboxes located to the left of the test step to select the steps you want to share and reuse. Once selected, click the "group step" icon located above the list of test steps.
-
-![Image](./SharedImages/1.Click%20Shared%20button.png)
-
-
-Once you click the "group step icon , a dialog box will pop up. Within this dialog box, you should provide a name for the newly created shared test in the "Shared name" field. Optionally, you can also choose a tag if needed
-
-![Image](./SharedImages/2.Naming%20Shared%20test.png)
-
-As a result, a shared test titled "Shared Test 1" has been newly created and you can view Shared testcase on shared step page
-
-![image](./SharedImages/3.Shared%20test%20displayed%20in%20shared%20page.png)

@@ -1,30 +1,49 @@
-# Schedule your Flow
+# 🗓️ Scheduling Your Test Flow in AssureQA
 
-Once automated tests are set up, it's essential to conduct regular runs to ensure the proper functioning of the web app. Thankfully, there's no requirement for manual login to AssureQA and clicking 'Run' each time; the platform automatically executes tests based on the established schedules
+Once your automated tests are set up, it's crucial to run them regularly to ensure your web app's stability and performance. Thankfully, with AssureQA, you don't need to manually initiate every test run—flows can be scheduled to run automatically.
 
-## Let’s see how we can Schedule a Flow
+## 🚀 Setting Up a Flow Schedule
 
-1. Go to **Schedules**
+Here’s how you can create a schedule for your test flow:
 
-2. Click on **Create Schedule** Button
+1. **Navigate to Schedules**:
+   - Go to the **Schedules** section from the main menu.
 
-![SC 1](/images/SC%201.1.png)
+2. **Create a New Schedule**:
+   - Click on the **Create Schedule** button to start setting up a new schedule.
 
-3. Provide the Schedule name and click on **Create** Button
+   ![Create Schedule](/images/SC%201.1.png)
 
-![SC 2](/images/SC%201.2.png)
+3. **Name Your Schedule**:
+   - Provide a name for the schedule and click **Create**.
 
-4. Click on **Add flow** and select the required Test Flows to be Scheduled
+   ![Name Schedule](/images/SC%201.2.png)
 
-![SC 3](/images/SC%203.png)
+4. **Add Flow to Schedule**:
+   - Click on **Add Flow** and select the test flows you want to schedule for automated execution.
 
-5.  Click on **Update** button
+   ![Add Flow](/images/SC%203.png)
 
-![SC 4](/images/SC%204.png)
+5. **Finalize the Schedule**:
+   - After confirming the details, click on **Update** to save the schedule.
 
-7. The Scheduled flow can be seen on **Schedule** page 
+   ![Update Schedule](/images/SC%204.png)
 
-![SC 5](/images/SC%205.png)
+6. **View Your Scheduled Flows**:
+   - The scheduled flows will now be visible on the **Schedules** page, ready to be executed at the defined intervals.
 
+   ![View Scheduled Flows](/images/SC%205.png)
 
-Now let’s find out how we can schedule on **Daily**, **weekly** and **Monthly** basis
+---
+
+## 📅 Scheduling Options
+
+Now that you've learned how to create a schedule, let’s explore the different scheduling options:
+
+- **Daily**: Automate test runs on a daily basis to ensure your web app's performance.
+- **Weekly**: Set up weekly schedules to run tests at specific times during the week.
+- **Monthly**: Schedule flows to run on specific days of the month for recurring testing.
+
+Each of these options can be configured to suit your testing frequency and ensure continuous monitoring of your application.
+
+---

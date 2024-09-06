@@ -1,20 +1,43 @@
+# 📄 Managing Shared Steps on the Shared Step Page
 
-## Shared step page
+The Shared Step page in AssureQA allows you to view, filter, and manage all the shared test cases you've created. This guide will help you understand how to navigate the page and perform essential actions.
 
-On this page, you can see all the shared test cases that have been created.
+## 🛠️ Navigating the Shared Step Page
 
-You can filter shared test cases by maintainers, tags, or by searching using the shared test case name. Additionally, you can navigate through pages.
+1. **View Shared Test Cases**:
+   - On this page, you can see a list of all the shared test cases that have been created.
 
-![Image1](./SharedImages/1.Filter%20in%20shared.png)
+2. **Filtering and Searching**:
+   - You can filter shared test cases by:
+     - **Maintainers**: Find test cases based on who created or maintains them.
+     - **Tags**: Filter by specific tags to quickly find relevant test cases.
+     - **Search**: Use the search bar to locate shared test cases by name.
 
-Clicking on the three dots will reveal the options to "Update" and "Delete.
+   ![Filter Shared Test Cases](/SharedImages/1.Filter%20in%20shared.png)
 
-![Image2](./SharedImages/2.Click%203%20dots.png)
+---
 
-Click on the update option to modify the shared name, description, or tags. After making your changes, click the update button to save them.
+## 🔄 Editing and Deleting Shared Steps
 
-[Image3](./SharedImages/ClickUpdate.png)
+### Editing Shared Test Cases
 
-Upon clicking the "Delete" button, a dialog will appear, as depicted in the above figure. By then clicking the "Delete" button within this dialog box, the shared test that was created will be deleted.
+1. **Access Edit Options**:
+   - Click on the three dots next to a shared test case to reveal options like **Update** and **Delete**.
 
-[Image4](./SharedImages/ClickDelete.png)
+   ![Access Options](/SharedImages/2.Click%203%20dots.png)
+
+2. **Update the Shared Test Case**:
+   - Select **Update** to modify the shared test case’s name, description, or tags. After making your changes, click **Update** to save.
+
+   ![Update Shared Test Case](/SharedImages/ClickUpdate.png)
+
+---
+
+### Deleting Shared Test Cases
+
+1. **Delete a Shared Test Case**:
+   - To delete a shared test case, click on the three dots, select **Delete**, and confirm the deletion in the dialog box.
+
+   ![Delete Shared Test Case](/SharedImages/ClickDelete.png)
+
+---

@@ -1,34 +1,55 @@
-# Flow schedules
+# 🚀 Managing Flow Schedules in AssureQA
 
-When you click on **Flow Schedule**, you can view all the schedules that have been created.
+Flow schedules in AssureQA enable you to automate the execution of test flows at predefined times, ensuring systematic testing and regular updates. This guide provides an interactive walk-through on how to manage these schedules effectively.
 
-![FS 1](/images/FS%201.png)
+## 📅 Overview of Flow Schedules
 
-### Total Flows 
+### Accessing Flow Schedules
 
-The total number of flows listed in a Schedule can be seen under the **Total Flows** column
+When you access the **Flow Schedule** page, you'll see a comprehensive list of all created schedules, allowing you to review and manage them at a glance.
 
-![FS 2](/images/FS%202.png)
+![Flow Schedules Overview](/images/FS%201.png)
 
-### Enable / Disable a Schedule
+### Key Features of Flow Schedules
 
-The user is able to Enable / Disable using the toggle Button near the three Dots. If the toggle button is green, it indicates that the schedule is currently active.
+1. **Total Flows**:
+   - View the total number of flows included in each schedule under the **Total Flows** column, giving you a quick summary of each schedule's scope.
 
-![FS 3.1](/images/FS%203.1.png)
+   ![Total Flows](/images/FS%202.png)
 
-You can use the Maintainer filter to select the Scheduled flows of a particular user
+2. **Enable/Disable Schedules**:
+   - Easily toggle schedules on or off using the switch next to each schedule. A green toggle indicates an active schedule.
 
-![FS 7](/images/FS%207.png)
+   ![Toggle Schedule](/images/FS%203.1.png)
 
-### Edit a Schedule
+3. **Filtering by Maintainer**:
+   - Use the **Maintainer** filter to view schedules created by specific users, enhancing your ability to manage team resources.
 
-To modify details in an existing schedule, simply click on the name of the schedule you want to update.
+   ![Maintainer Filter](/images/FS%207.png)
 
-![FS 5](/images/FS%205.png)
+---
 
-If you wish to delete or update the Schedule name, Click on the three dots and select the required function
+## 🔄 Editing and Managing Schedules
 
-![FS 6](/images/FS%206.png)
+### Modifying Schedules
 
-All the schedules which are active will be Executed on the Specified time and can be accesed in [Schedule Reports]() page
+- **Edit a Schedule**:
+  - Click directly on a schedule's name to modify its details, such as changing the time or included flows.
 
+  ![Edit Schedule](/images/FS%205.png)
+
+- **Additional Options**:
+  - Use the three dots menu to access more options like deleting a schedule or updating its name.
+
+  ![Schedule Options](/images/FS%206.png)
+
+### Viewing Schedule Execution
+
+- **Scheduled Execution**:
+  - Active schedules execute at specified times and details of these executions can be reviewed on the [Schedule Reports](#) page.
+
+---
+
+
+
+By utilizing these tools and features, you can maximize the efficiency of your testing processes through effective schedule management in AssureQA. Dive into the world of automated testing schedules with confidence!

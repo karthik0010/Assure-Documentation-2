@@ -1,40 +1,38 @@
- # Daily Schedules
- 
- ### In AssureQA, we can schedule flows to run daily at multiple times. Let's explore how to set this up.
+# 🌞 Setting Up Daily Schedules in AssureQA
 
-1. Create a Schedule by providing Schedule name in *Flow Schedule* page 
+Scheduling flows to run daily is a powerful feature in AssureQA that enhances your testing automation by ensuring regular checks and updates. Follow this interactive guide to set up your daily schedules.
 
-2. Select **Daily** from the Dropdown
+## 📅 Creating Daily Schedules
 
-![DS 1](/images/DS%201.jpg)
+### Step-by-Step Process
 
-3. Click on the '**+**' 
+1. **Initiate Schedule Creation**:
+   - Navigate to the *Flow Schedule* page and start by entering a name for your new schedule.
 
-<br>
+2. **Schedule Frequency**:
+   - Select **Daily** from the dropdown menu to specify the schedule frequency.
 
- > [!TIP] 
- > We can Schedule the same Flow multiple times in a day using the '**+**' option. 
+   ![Daily Frequency Selection](/images/DS%201.jpg)
 
-<br>
+3. **Set Multiple Times**:
+   - Add multiple run times within a day by clicking on the '**+**' button. This allows for flexibility in testing at different times.
 
+   ![Add Times](/images/DS%202.jpg)
+   > [!TIP]
+   > Use the '**+**' option to schedule the same flow multiple times in a day for comprehensive coverage.
 
+4. **Add Flow to Schedule**:
+   - Click **Add Flow** to attach the specific flow you want to run daily.
 
-![DS 2](/images/DS%202.jpg)
+   ![Add Flow](/images/DS%204.jpg)
+   - Choose the flow from the list that appears after clicking.
 
-- Add the Required time
+   ![Select Flow](/images/DS%205.jpg)
 
-![DS 3](/images/DS%203.jpg)
+5. **Finalize the Schedule**:
+   - Once all settings are adjusted, click on **Update** to save your daily schedule.
 
-4. Add the flow to be scheduled by clicking **Add Flow** button 
+   ![Update Schedule](/images/DS%206.jpg)
 
-![DS 4](/images/DS%204.jpg)
-
-- Select the Flow 
-
-![DS 5](/images/DS%205.jpg)
-
-5. Click on **Update** button
-
-![DS 6](/images/DS%206.jpg)
-
-6. The Scheduled flow can be seen on the [Flow Schedules]() page.
+6. **View Scheduled Flows**:
+   - Confirm and review your scheduled flows on the [Flow Schedules](#) page.

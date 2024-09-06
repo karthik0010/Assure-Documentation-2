@@ -1,113 +1,101 @@
-﻿# TAGS
+﻿# 🏷️ Using Tags in AssureQA
 
-Tags are like labels that help sort things in a Testcases, Shared library, and Flow based on what the user likes. They're like quick ways to find and organize stuff, such as prioritizing tests, finding reusable code, or sorting process steps. Tags make it easy for users to manage and find things in their own way.
+Tags in AssureQA serve as powerful labels to help you organize and find test cases, flows, and shared libraries easily. They enable users to prioritize tests, locate reusable code, and manage process steps with ease. This guide walks you through creating and linking tags to test cases, flows, and shared libraries.
 
+## 🛠️ Creating a Tag
 
+### Step-by-Step Tag Creation
 
- 1. Click Tag menu
+1. **Access the Tag Menu**:
+   - Click on the **Tag** menu to manage tags in your project.
 
-![Image 1](/images/Image%20-%201.png)
+   ![Tag Menu](/images/Image%20-%201.png)
 
- 2. Click on Create Tag button
+2. **Create a New Tag**:
+   - Click on the **Create Tag** button and enter a name for your tag. Once done, click **Create** to save the tag.
 
-![Image - 2](/images/Image%20-%202.png)
+   ![Create Tag](/images/Image%20-%202.png)
 
- 3. Enter tag name
+   ![Enter Tag Details](/images/Image%20-%203.png)
 
- 4. Click on Create button
+---
 
-![image3](/images/Image%20-%203.png)
+## 🔗 Linking Tags to Test Cases
 
-**Linking created tag to test case.**
+Once a tag is created, you can link it to individual test cases to help group, sort, or prioritize them.
 
+1. **Go to the Testcase Section**:
+   - Select the desired test case from the list.
 
+   ![Select Testcase](/images/Image%20-%204.png)
 
-1. Click on Testcase section
-2. Click on desired testcase
+2. **Link the Tag**:
+   - In the test case’s configuration, find the **Tags** option. Select the tag you created and click **Save**.
 
-![Image - 4](/images/Image%20-%204.png)
+   ![Link Tag to Testcase](/images/Image-5.png)
 
+By linking tags to test cases, users can quickly filter and organize them based on specific attributes or priorities.
 
-3. Select Test Config
-4. Select the Tag created tag
-5. Click on Save button
+---
 
-![image - 5](/images/Image-5.png)
+## 🔄 Linking Tags to Flows
 
-In the 'Test Config' section, the 'Tags' option displays all created tags. Here, the user can link the selected test case with a tag. Saving the tag enables the user to effortlessly group and filter test cases as required.
+Tags can also be linked to flows in a similar way:
 
-**Linking created tag to Flow.**
+1. **Access the Flow Section**:
+   - Go to the flow you want to tag, click the three dots, and select **Update**.
 
-User can link Tags to Flow as similar to Testcase. Let’s see how user can link tags to Flow
+   ![Flow Options](/images/Image-7.png)
 
-![Image - 6](/images/Image-6.png)
+2. **Assign the Tag**:
+   - Choose the tag from the list and click **Update** to save it.
 
-1. Click on Flow section
-2. Select three dots
+   ![Assign Tag to Flow](/images/Image-8.png)
 
-![Image - 7](/images/Image-7.png)
+---
 
-3. Select Update from the small box.
+## 🔗 Linking Tags to Shared Libraries
 
-![Image - 8](/images/Image-8.png)
+Tags can be applied to shared libraries, allowing for easier management of shared tests:
 
-4. Select the Tag created
-5. Click on Update button
+1. **Select a Shared Test**:
+   - Go to the **Shared** section, choose a shared test, and open the configuration.
 
-**Linking created tag to Shared Library.**
+   ![Shared Section](/images/Image-9.png)
 
-User can include Tags in shared Test.Let’s see how the Tags can be included shared Test.
+2. **Apply the Tag**:
+   - In the configuration, select the tag and save your changes.
 
-![Image - 9](/images/Image-9.png)
+   ![Link Tag to Shared Test](/images/Image-10.png)
 
-1. Select Shared Section
-2. Select a Created Shared from Shared test section
+---
 
-![Image - 10](/images/Image-10.png)
+## 🧑‍💻 Managing Tags
 
-3. Click on config
-4.  Select the created Tag
-5.  Click on Save button
- 
-**Tag Filters**
+### Using Tag Filters
 
-Users can use filters to show the Tags based on specific preferences. The figure below shows these filters in the Tag section.
+- **Filtering Tags**: 
+  - Use the filtering options in the **Tags** section to sort and search based on maintainers or specific flows.
 
-![Image - 11](/images/Image-11.png)
+  ![Tag Filters](/images/Image-11.png)
 
-The highlighted section in the image displays the filters available within the Tag. These filters allow users to: select a Maintainer to view created Tag, search for specific Flows by name, and utilize the reset button to reset the selected filters
+### Editing or Deleting Tags (Meatballs Menu)
 
-**Meatballs**
+- **Access the Meatballs Menu**:
+  - Click on the three dots next to a tag to see options like **Update** or **Delete**.
 
-Meatballs section used to make changes to created tags. Let’s see how the meatballs will be working in Tag section.
+  ![Meatballs Menu](/images/Image-12.png)
 
-![Image - 12](/images/Image-12.png)
+- **Updating Tags**:
+  - Choose **Update** to modify a tag’s details.
 
-1. Click on Three dots from action section
+  ![Update Tag](/images/Image-15.png)
 
-![Image - 14](/images/Image-14.png)
+- **Deleting Tags**:
+  - Select **Delete** to remove a tag permanently from the project.
 
-2. Click on Update
+  ![Delete Tag](/images/Image-17.png)
 
-![Image - 15](/images/Image-15.png)
-
-3. Click on Update button
-
-![Image - 16](/images/Image-16.png)
-
-4. Click on Delete
-
-![Image - 17](/images/Image-17.png)
-
-5. Click on Delete button from confirmation box
-
-After clicking delete button the Tag will be deleted.
-
-
-
-
-
-
-
+---
 
 
