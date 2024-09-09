@@ -1,6 +1,6 @@
 ## 📁 Drive
 
-Drive is the file storage system for Assure QA, where users can upload and store files. Here, you can attach small files and use their paths in test steps.
+Drive is the file storage system for Assure QA, where users can upload and store files. Here, you can attach files and use their paths in test steps.
 
 ### 📜 File Details
 
