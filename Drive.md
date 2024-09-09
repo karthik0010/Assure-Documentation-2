@@ -5,11 +5,11 @@ Drive is the file storage system for Assure QA, where users can upload and store
 ### 📜 File Details
 
 Files are listed with details such as:
-- **File Name** (with a copy button) 📋
-- **Last Modified Date** 📅
-- **Size** 📏
+- **File Name** (with a copy button) 
+- **Last Modified Date** 
+- **Size** 
 
-You can also **download** ⬇️, **rename** ✏️, and **delete** 🗑️ files by clicking on the kebab menu (three dots).
+You can also **download** , **rename** , and **delete**  files by clicking on the kebab menu (three dots).
 
 ![File Details](images/D-1.png)
 
@@ -27,7 +27,7 @@ To upload a file to Drive:
 
    Optionally, assign a prefix to the file, though this is not mandatory.
 
-3. **Click on** [**Upload**](#upload-file) 🚀
+3. **Click on** [**Upload**](#upload-file) 
 
    ![Upload File](images/D-4.png)
 
@@ -35,7 +35,7 @@ To upload a file to Drive:
 
    ![Uploaded File](images/D-5.png)
 
-   You can **download** ⬇️, **rename** ✏️, or **delete** 🗑️ the uploaded file by clicking on the kebab menu.
+   You can **download** , **rename** , or **delete**  the uploaded file by clicking on the kebab menu.
 
    ![Kebab Menu](images/D-6.png)
 
@@ -43,7 +43,7 @@ To upload a file to Drive:
 
 To create a folder:
 
-1. **Click on** [**Create Folder**](#create-folder) 🗂️
+1. **Click on** [**Create Folder**](#create-folder) 
 
    ![Create Folder Option](images/D-7.png)
 
@@ -51,7 +51,7 @@ To create a folder:
 
    ![Folder Name Dialog](images/D-8.png)
 
-3. **Click on** [**Create**](#create-folder) ✅
+3. **Click on** [**Create**](#create-folder) 
 
    ![Create Folder Button](images/D-9.png)
 
@@ -59,11 +59,11 @@ To create a folder:
 
    ![Created Folder](images/D-10.png)
 
-   You can also **upload files** 📤 and **create additional subfolders** inside the created folder.
+   You can also **upload files**  and **create additional subfolders** inside the created folder.
 
    ![Subfolders](images/D-11.png)
 
-   User-created folders can be **renamed** ✏️ and **deleted** 🗑️ by clicking on the kebab menu.
+   User-created folders can be **renamed**  and **deleted**  by clicking on the kebab menu.
 
    ![Folder Kebab Menu](images/D-12.png)
 
