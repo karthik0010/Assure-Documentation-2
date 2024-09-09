@@ -34,6 +34,7 @@ Before running a test, configure the necessary settings to match your testing re
 Following this, the element name is identified, and users can set it according to their preferences until it is utilized for the scripting healing.
 
 Moving forward, there are locators that can be edited or added based on user requirements
+
 3. **Save and Run**:  
    After setting up your test steps, save the configuration and start the test run. Monitor the process and make adjustments as needed.
 
