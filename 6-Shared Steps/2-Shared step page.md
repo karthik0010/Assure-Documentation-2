@@ -38,6 +38,6 @@ The Shared Step page in AssureQA allows you to view, filter, and manage all the 
 1. **Delete a Shared Test Case**:
    - To delete a shared test case, click on the three dots, select **Delete**, and confirm the deletion in the dialog box.
 
-   ![Delete Shared Test Case](./SharedImages/4.Cick%20Delete.png)
+   ![Delete Shared Test Case](./SharedImages/sh%20d.png)
 
 ---
