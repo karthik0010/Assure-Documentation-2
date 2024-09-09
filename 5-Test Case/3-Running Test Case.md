@@ -1,6 +1,6 @@
-# 🚀 Running a Test Case: A Detailed Guide
+# 🚀 Running a Test Case
 
-Ready to run your test cases in AssureQA? Follow these steps to execute them smoothly, whether you are testing manually or using automated methods.
+Ready to run your test cases in AssureQA? Follow these steps to execute them smoothly.
 
 ## 🛠️ Step 1: Setting Up Your Test Configuration
 
@@ -14,7 +14,7 @@ Before running a test, configure the necessary settings to match your testing re
    ![Test Config](./TestcaseImages/1.Test%20config(Running%20Testcase).png)
 
 2. **Advanced Settings**:  
-   Dive into advanced settings like adaptive wait times, screenshot capture preferences, and screen resolution setup.
+   Dive into advanced settings like adaptive wait , screenshot capture preferences, and screen resolution setup.
 
 3. **Selecting Screenshots**:  
    Decide if you want screenshots to be taken at all steps or only specific ones. Toggle the option as per your need.
@@ -27,10 +27,13 @@ Before running a test, configure the necessary settings to match your testing re
    ![Test Steps](./TestcaseImages/2.TestSteps(Running%20Testcase).png)
 
 2. **Input Definitions and Set Conditions**:  
-   For actions like "SETTEXT", input necessary definitions. Choose conditions like "Mark error and continue" based on your testing strategy.
+   In this instance, "SETTEXT" has been chosen, offering options such as "Definition" allowing the user to input plain text and incorporate variables and built-in functions as needed.
 
-   ![Input Values](./TestcaseImages/3.Input%20Values%20to%20definition(Running%20Testcase).png)
+![Input Values to definition(Running Testcase)](./TestcaseImages/3.Input%20Values%20to%20definiton(Running%20Testcase).png)
 
+Following this, the element name is identified, and users can set it according to their preferences until it is utilized for the scripting healing.
+
+Moving forward, there are locators that can be edited or added based on user requirements
 3. **Save and Run**:  
    After setting up your test steps, save the configuration and start the test run. Monitor the process and make adjustments as needed.
 

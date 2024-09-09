@@ -8,10 +8,10 @@ To get started, head over to the test case page and click on *"Create"*. You’l
 - *Record New Test Case*
 - *Blank Test Case*
 
-### 🎥 Recording a Test Case Using the UI Sensor
+### 🎥 Recording a Test Case Using the Recorder
 
 1. **Choose Your Option**:  
-   If you'd like to record a script using the UI sensor, select *"Record New Test Case"*. Prefer manual creation? Go with *"Blank Test Case"*. But let’s focus on recording a test case using the UI sensor.
+   If you'd like to record a script using the Recorder, select *"Record New Test Case"*. Prefer manual creation? Go with *"Blank Test Case"*. But let’s focus on recording a test case using the Recorder.
 
    ![Recording UI sensor](./TestcaseImages/tt_1.png)
 
