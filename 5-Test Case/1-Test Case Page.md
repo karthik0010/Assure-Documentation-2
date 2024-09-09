@@ -27,7 +27,7 @@ The Test Case Page is where all your test cases are displayed. It's designed to 
 
 -->
 
-4. **Deleting a Test Case**:  
+3. **Deleting a Test Case**:  
    Remove a test case permanently if no longer needed.
 
    ![Deleting](./TestcaseImages/5.Delete%20TestCase.png)
@@ -39,7 +39,7 @@ The Test Case Page is where all your test cases are displayed. It's designed to 
 ### Finding the Right Test Case
 
 1. **Applying Filters**:  
-   Narrow down your search by using filters based on modules, submodules, maintainers, or tags.
+   Narrow down your search by using filters based on maintainers or tags.
 
    ![Filters](./TestcaseImages/Na1.png)
 
