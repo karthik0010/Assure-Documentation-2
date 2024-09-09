@@ -18,8 +18,8 @@ AssureQA allows team owners and administrators to manage their teams effectively
 
 ### 🚪 Quit the Team
 
-1. **Click "Leave"**:  
-   To leave a team, click the **"Leave"** button.
+1. **Click "Quit"**:  
+   To leave a team, click the **"Quit"** button.
 
    ![Leave Team](./TeamImages/SS2.png)
 
