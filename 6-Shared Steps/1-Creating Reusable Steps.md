@@ -18,6 +18,8 @@ Reusable steps, or shared test cases, allow you to create a set of steps that ca
 
 - Once you’ve selected the steps, click on the **Group Step** icon located above the list of test steps. This action opens a dialog box where you can configure the shared steps.
 
+![Select Steps](./SharedImages/1.Click%20Shared%20button.png)
+
 ### Step 4: Name the Shared Test
 
 - In the dialog box, provide a meaningful name for the shared test in the **Shared Name** field. Optionally, you can also assign a tag to categorize the test for better organization.
