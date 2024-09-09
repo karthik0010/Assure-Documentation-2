@@ -57,7 +57,7 @@ The created folder will be displayed on the Drive page.
 
    ![D-10](/images/D-10.png)
 
-> [!TIP] 
+> [!TIP]
 > You can upload files or create subfolders inside the created folder for better organization.
 
    ![D-11](/images/D-11.png)
