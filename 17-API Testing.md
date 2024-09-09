@@ -11,12 +11,12 @@ AssureQA enables you to create, execute, and manage API tests, specifically supp
 1. Click on the '**+**' button.
 2. Select **New Collection**.
 
-   ![api1](/images/api1.png)
+   ![api1](/images/col1.png)
 
 3. Enter the collection name and select the parent folder.
 4. Click **Create**.
 
-   ![api2](/images/api2.png)
+   ![api2](/images/col2.png)
 
 Created collections will be displayed on the left-hand side.
 
@@ -27,7 +27,7 @@ Created collections will be displayed on the left-hand side.
 1. Click on the **kebab menu** next to the collection.
 2. Select **Rename**.
 
-   ![api4](/images/api4.png)
+   ![api4](/images/col3.png)
 
 3. Enter the new name in the **Name** field.
 4. Click **Update**.
@@ -39,7 +39,7 @@ Created collections will be displayed on the left-hand side.
 1. Click on the **kebab menu** next to the collection.
 2. Select **New Collection**.
 
-   ![api6](/images/api6.png)
+   ![api6](/images/col5.png)
 
 3. Enter the collection name and select the parent folder.
 4. Click **Create**.
@@ -49,11 +49,11 @@ Created collections will be displayed on the left-hand side.
 1. Click on the **kebab menu** next to the collection.
 2. Select **Delete**.
 
-   ![api7](/images/api7.png)
+   ![api7](/images/col6.png)
 
 3. Click **Delete** in the confirmation dialog box.
 
-   ![api8](/images/api8.png)
+   ![api8](/images/col7.png)
 
 ---
 
