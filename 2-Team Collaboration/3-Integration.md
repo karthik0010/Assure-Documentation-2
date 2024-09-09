@@ -1,10 +1,10 @@
 # 🔗 Integrating Third-Party Services in AssureQA
 
-AssureQA makes it super easy to integrate with third-party services like **BrowserStack**, **LambdaTest**, and **SauceLabs**. Once integrated, all team members can access these services seamlessly. Let’s see how to set it all up!
+AssureQA makes it super easy to integrate with third-party services like **BrowserStack**, **LambdaTest**, and **SauceLabs** and many more. Once integrated, all team members can access these services seamlessly. Let’s see how to set it all up!
 
 ## 🛠️ Step-by-Step Integration
 
-### ☁️ LambdaTest Integration
+### 💠 LambdaTest Integration
 
 1. **Click "Connect"**:  
    Start by clicking the **"Connect"** button next to LambdaTest.
