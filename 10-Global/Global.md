@@ -1,3 +1,23 @@
-# GLOBAL
+# 🌍 Global
 
-In AssureQA, the "Global" menu intented to be a library for storing a collection of predefined variables and datasets that can be used across different parts of a project or application. These data can be constants, configurations, or values that are reused frequently, ensuring consistency and ease of maintenance. It offers reusability, centralized management, consistency and customization. Global has two tabs : variables and datasets.
+In AssureQA, the **"Global"** menu serves as a central library for managing predefined variables and datasets that you can use throughout your project or application. 
+
+## 📚 What is Global?
+
+The **Global** section is designed to store:
+- **Predefined Variables**: Constants, configurations, or frequently used values.
+- **Datasets**: Collections of data that are reused across different parts of your project.
+
+## 🔧 Key Features
+
+- **Reusability**: Easily reuse variables and datasets across various parts of your project.
+- **Centralized Management**: Manage all your common variables and datasets in one place.
+- **Consistency**: Ensure consistency by using the same data and configurations throughout your project.
+- **Customization**: Customize and update global variables and datasets as needed.
+
+## 🗂️ Tabs in Global
+
+- **Variables**: Store and manage reusable values and configurations.
+- **Datasets**: Manage collections of data used across different parts of your application.
+
+By using the **Global** menu, you streamline your workflow and ensure that your project remains organized and maintainable. 🌟
