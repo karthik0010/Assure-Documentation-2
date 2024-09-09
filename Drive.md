@@ -1,81 +1,138 @@
-# 💾 Drive in AssureQA
+## 📁 Drive
 
-Drive is the file storage system for AssureQA, where users can upload and store files. On this page, users can attach small files and use their path in test steps. Files are listed with details such as the file name (with a copy button), last modified date, and size. Users can download, rename, and delete files by clicking the three dots.
+Drive is the file storage system for Assure QA, where users can upload and store files. Here, you can attach small files and use their paths in test steps.
 
-![D-1](/images/D-1.png)
+### 📜 File Details
 
----
+Files are listed with details such as:
+- **File Name** (with a copy button) 📋
+- **Last Modified Date** 📅
+- **Size** 📏
 
-## 📂 Managing Files
+You can also **download** ⬇️, **rename** ✏️, and **delete** 🗑️ files by clicking on the kebab menu (three dots).
 
-### **Uploading a File**
+![File Details](images/D-1.png)
 
-To upload a file to Drive, follow these steps:
+### 📤 Upload a File
 
-1. Click on **Upload File**.
+To upload a file to Drive:
 
-   ![D-2](/images/D-2.png)
+1. **Click on** [**Upload File**](#upload-file) 📤
 
-2. Select the file by clicking the **Upload File** button.
+   ![Click Upload File](images/D-2.png)
 
-   ![D-3](/images/D-3.png)
+2. **Click on the Upload File button**, then select the desired file.
 
-> [!TIP] 
-> You can assign a prefix to the file before uploading, though it’s optional.
+   ![Select File](images/D-3.png)
 
-3. Click on the **Upload** button.
+   Optionally, assign a prefix to the file, though this is not mandatory.
 
-   ![D-4](/images/D-4.png)
+3. **Click on** [**Upload**](#upload-file) 🚀
 
-The uploaded file will now appear in the list on the Drive page.
+   ![Upload File](images/D-4.png)
 
-   ![D-5](/images/D-5.png)
+   The uploaded file will now appear in the list on the Drive page.
 
-Users can **download**, **rename**, or **delete** the uploaded file by clicking on the kebab menu next to the file.
+   ![Uploaded File](images/D-5.png)
 
-   ![D-6](/images/D-6.png)
+   You can **download** ⬇️, **rename** ✏️, or **delete** 🗑️ the uploaded file by clicking on the kebab menu.
 
----
+   ![Kebab Menu](images/D-6.png)
 
-### **Creating a Folder**
+### 📂 Create Folder
 
-Users can create folders to organize their files on the Drive page.
+To create a folder:
 
-1. Click on the **Create Folder** button.
+1. **Click on** [**Create Folder**](#create-folder) 🗂️
 
-   ![D-7](/images/D-7.png)
+   ![Create Folder Option](images/D-7.png)
 
-2. Enter the desired folder name in the dialog box.
+2. **Enter the desired folder name** in the dialog box that appears and click ‘Create’.
 
-   ![D-8](/images/D-8.png)
+   ![Folder Name Dialog](images/D-8.png)
 
-3. Click on the **Create** button.
+3. **Click on** [**Create**](#create-folder) ✅
 
-   ![D-9](/images/D-9.png)
+   ![Create Folder Button](images/D-9.png)
 
-The created folder will be displayed on the Drive page.
+   The newly created folder will be displayed on the Drive page.
 
-   ![D-10](/images/D-10.png)
+   ![Created Folder](images/D-10.png)
 
-> [!Tip] 
-> You can upload files and create additional subfolders within the created folder for better organization.
+   You can also **upload files** 📤 and **create additional subfolders** inside the created folder.
 
+   ![Subfolders](images/D-11.png)
 
+   User-created folders can be **renamed** ✏️ and **deleted** 🗑️ by clicking on the kebab menu.
 
-   ![D-11](/images/D-11.png)
+   ![Folder Kebab Menu](images/D-12.png)
 
-Folders can be renamed or deleted by clicking on the kebab menu next to them.
+   Deleted files will disappear from the page.
 
-   ![D-12](/images/D-12.png)
+   ![Deleted File](images/D-13.png)
 
-Deleted files and folders will no longer appear on the page.
+### 🗂️ Create Test Step for Downloading File
 
-   ![D-13](/images/D-13.png)
+To use the 'DownloadFile' keyword:
 
----
+1. **Create a new folder** on the Drive.
 
-## 🔄 Creating a Test Step for Downloading a File
+   ![Create Folder](images/D.s-1.png)
 
-In AssureQA, the 'DownloadFile' keyword automates file downloads. You need to specify the file path where the file will be saved. Here's how you use the Drive to support file downloads:
+2. **Enter the folder name** ('Drive-2') and click ‘Save’.
 
-1. **Create a New Folder**: Go 
+   ![Save Folder](images/D.s-2.png)
+
+3. The new folder will be listed on the Drive.
+
+   ![New Folder Listed](images/D.s-3.png)
+
+4. Go to the test case page and select **'Download File'** ⬇️.
+
+   ![Download File Option](images/D.s-4.png)
+
+5. **Click the ‘Download File’ step**, enter the path including the new folder name ('Drive-2') and the file name, then click ‘Save’.
+
+   ![Enter Path](images/D.s-5.png)
+
+   Example Path: **'Drive-2/1.1-MB-1.jpg'**
+
+6. **Click ‘Run’** 🏃‍♂️ to execute the test case and click the download button to download the file.
+
+   ![Run Test Case](images/D.s-6.png)
+
+7. Return to the Drive page, and click on the **‘Drive-2’** folder to verify that the downloaded file is stored correctly.
+
+   ![Verify File](images/D.s-7.png)
+
+   The downloaded file should be correctly stored in the ‘Drive-2’ folder.
+
+   ![Stored File](images/D.s-8.png)
+
+### 🗂️ Create Test Step for Uploading File
+
+To use the 'UploadFile' keyword:
+
+1. **Click on the 'Drive-1' folder** on the Drive page.
+
+   ![Select Folder](images/Step-1.png)
+
+2. **Copy the file path** 📋 by clicking the button next to the name of the uploaded file.
+
+   ![Copy File Path](images/Step-2.png)
+
+   The copied path will include the folder name preceding the file name.
+
+   Example Path: **'Drive-1/1.1-MB-1.jpg'**
+
+3. Go to the test case page and select **'Upload File'** 📤.
+
+   ![Upload File Option](images/Step-4.png)
+
+4. **Paste the copied path** into the definition field and click ‘Save’.
+
+   ![Paste Path](images/Step-5.png)
+
+5. **Click ‘Run’** 🏃‍♂️ to execute the test case. The file present in the Drive will be uploaded to the application under test.
+
+   ![Run Upload Test Case](images/Step-6.png)
