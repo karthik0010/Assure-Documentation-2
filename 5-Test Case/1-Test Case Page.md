@@ -8,10 +8,10 @@ The Test Case Page is where all your test cases are displayed. It's designed to 
 
 ### 📊 Test Case Management
 
-1. **Clone, Move, Delete**:  
-   Use the options icon on the right of each test case to clone, move, or delete a test case.
+1. **Clone and Delete**:  
+   Use the options icon on the right of each test case to clone or delete a test case.
 
-   ![Manage Test Cases](./TestcaseImages/dots.png)
+   ![Manage Test Cases](./TestcaseImages/3%20dots.png)
 
 2. **Cloning a Test Case**:  
    Easily duplicate a test case for different testing scenarios.
