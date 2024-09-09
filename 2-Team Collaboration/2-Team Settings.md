@@ -26,8 +26,8 @@ AssureQA allows team owners and administrators to manage their teams effectively
 2. **Confirm Leave**:  
    Confirm your decision. Remember, leaving the team means you will lose access to all projects associated with it.
 
-   > [!NOTE]
-   > If you are the team owner, ensure to transfer ownership before leaving.
+> [!NOTE]
+> If you are the team owner, ensure to transfer ownership before leaving.
 
 ---
 
