@@ -16,8 +16,8 @@ Weekly schedules allow you to automate test runs on specific days of the week, e
 
    ![Select Days](/images/WS%202.jpg)
    
-   > [!TIP]  
-   > You can select multiple days for the same test flow to run across the week.
+> [!TIP]  
+> You can select multiple days for the same test flow to run across the week.
 
 3. **Set Execution Time**:
    - Click the **'+'** button to add the required execution time for the selected days.

@@ -18,8 +18,8 @@ Scheduling flows to run daily is a powerful feature in AssureQA that enhances yo
    - Add multiple run times within a day by clicking on the '**+**' button. This allows for flexibility in testing at different times.
 
    ![Add Times](/images/DS%202.jpg)
-   > [!TIP]
-   > Use the '**+**' option to schedule the same flow multiple times in a day for comprehensive coverage.
+> [!TIP]
+> Use the '**+**' option to schedule the same flow multiple times in a day for comprehensive coverage.
 
 4. **Add Flow to Schedule**:
    - Click **Add Flow** to attach the specific flow you want to run daily.

@@ -16,8 +16,8 @@ Monthly schedules in AssureQA allow you to automate test flows on specific days 
 
    ![Select Days of Month](/images/MS%203.jpg)
    
-   > [!TIP]  
-   > The same flow can be scheduled to run on multiple days within a month for better coverage and flexibility.
+> [!TIP]  
+> The same flow can be scheduled to run on multiple days within a month for better coverage and flexibility.
 
 3. **Set Time for Execution**:
    - Click the **'+'** button to add specific times for the flow to execute on the selected days.
