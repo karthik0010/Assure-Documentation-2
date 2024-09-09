@@ -11,8 +11,15 @@ Editing shared steps in AssureQA offers flexibility by allowing users to modify,
    ![Delete Step](./SharedImages/1.Delete%20steps%20in%20shared.png)
 
 ---
+### 2. Disabling a Step
 
-### 2. Enabling a Disabled Step
+- **How to Disable**: To temporarily remove a step from execution, select it and click the **Disable** button.
+
+   ![Disable Step](./SharedImages/3.Disable%20Test%20step.png)
+
+---
+
+### 3. Enabling a Disabled Step
 
 - **How to Enable**: Select a previously disabled step and click the **Enable** button to activate it.
 
@@ -20,13 +27,6 @@ Editing shared steps in AssureQA offers flexibility by allowing users to modify,
 
 ---
 
-### 3. Disabling a Step
-
-- **How to Disable**: To temporarily remove a step from execution, select it and click the **Disable** button.
-
-   ![Disable Step](./SharedImages/3.Disable%20Test%20step.png)
-
----
 
 ### 4. Cutting a Test Step
 
