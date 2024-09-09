@@ -9,7 +9,7 @@ Before running a test, configure the necessary settings to match your testing re
 ### 🌐 Test Configuration Options
 
 1. **Access Test Config**:  
-   Start by navigating to your test case and clicking on the *"Test Config"* option. Here you can select the desired browser and environment.
+   Start by navigating to your test case and clicking on the *"Config"*. Here you can select the desired browser and environment.
 
    ![Test Config](./TestcaseImages/1.Test%20config(Running%20Testcase).png)
 
@@ -53,9 +53,9 @@ Moving forward, there are locators that can be edited or added based on user req
    ![Error Conditions](./TestcaseImages/4.Three%20conditions(Running%20Testcase).png)
 
 2. **Live Monitoring**:  
-   Enable live monitoring to view test execution in real-time, enhancing your control over the testing process.
+   Enable live view toggle button to view test execution in real-time, enhancing your control over the testing process.
 
-   ![Live Monitoring](/images/LV.png)
+   ![Live Monitoring](./TestcaseImages/live.png)
 
 ---
 

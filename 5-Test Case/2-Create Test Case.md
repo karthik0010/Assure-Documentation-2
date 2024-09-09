@@ -21,7 +21,7 @@ To get started, head over to the test case page and click on *"Create"*. You’l
    ![Click the record button](./TestcaseImages/2.Click%20the%20record%20button.png)
 
 3. **Perform Your Actions**:  
-   Now, perform the actions you want to record, and the UI sensor will capture each one automatically.
+   Now, perform the actions you want to record, and the Recorder will capture each one automatically.
 
 4. **Stop Recording**:  
    When you’re done, hit the red *Stop* button to complete the recording.
@@ -53,7 +53,7 @@ Prefer to create your test manually? No problem!
    After confirming the environment and browser settings, click *Create* to finalize your new test case.
 
 3. **Add Your Test Steps**:  
-   Ready to define your actions? Hit the *"Add"* button to incorporate the steps.
+   Ready to define your actions? Hit the *"+"* button to incorporate the steps.
 
    ![Add test step](./TestcaseImages/8.Add%20new%20test%20step%20in%20TC.png)
 
