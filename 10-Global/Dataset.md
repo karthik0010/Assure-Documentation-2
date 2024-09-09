@@ -31,6 +31,43 @@ Datasets in AssureQA organize and manage variables efficiently, allowing for eas
 
    ![Expand Dataset](/DatasetImages/d8.png)
 
+## 📥 Importing and Exporting Data
+
+1. **Export to CSV**:
+   Download your dataset template or current data as a CSV file, modify it externally, and re-import for updated testing scenarios.
+
+   ![Export CSV](/DatasetImages/d11.png)
+
+2. **Import Updated Data**:
+   Reintegrate your modified CSV files to update datasets with new or changed data seamlessly.
+
+   ![Import CSV](/DatasetImages/d12.png)
+
+---
+
+
+---
+
+**Adding Dataset to Test case**
+
+We can use dataset in two ways inside a testcase. One way is applying it directly to the testcase and other way is applying it only to the shared steps i.e, via For Loop. First method's steps are mentioned below and for the other one, please refer 'for loop' section.
+
+ 1. Goto test case page.
+ 
+ 2. Select desired test case and that must contains variables same as that in the created dataset.
+ 
+ 3. Open testcase editor of selected test case. 
+ 
+ 4. Click on the dataset dropdown button on the top mid-right corner of testcase editor page.
+ 
+ ![d17](/DatasetImages/d17.png)
+ 
+ 5. Select created dataset and the selected one's name will be shown on the field.
+
+ ![d18](/DatasetImages/d18.png)
+ 
+ ![d19](/DatasetImages/d19.png)
+
 ---
 
 ## 🔄 Using Datasets in Test Flows
@@ -49,19 +86,6 @@ Leverage datasets effectively within your test flows for enhanced testing precis
 
 ---
 
-## 📥 Importing and Exporting Data
-
-1. **Export to CSV**:
-   Download your dataset template or current data as a CSV file, modify it externally, and re-import for updated testing scenarios.
-
-   ![Export CSV](/DatasetImages/d11.png)
-
-2. **Import Updated Data**:
-   Reintegrate your modified CSV files to update datasets with new or changed data seamlessly.
-
-   ![Import CSV](/DatasetImages/d12.png)
-
----
 
 ## 🛠️ Dataset Maintenance
 
