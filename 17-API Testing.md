@@ -6,25 +6,25 @@ AssureQA enables you to create, execute, and manage API tests, specifically supp
 
 ## 📂 Collection Management
 
-### **Creating a Folder**
+### **Creating a Collection**
 
 1. Click on the '**+**' button.
-2. Select **New Folder**.
+2. Select **New Collection**.
 
    ![api1](/images/api1.png)
 
-3. Enter the folder name and select the parent folder.
+3. Enter the collection name and select the parent folder.
 4. Click **Create**.
 
    ![api2](/images/api2.png)
 
-Created folders will be displayed on the left-hand side.
+Created collections will be displayed on the left-hand side.
 
    ![api3](/images/api3.png)
 
-### **Renaming a Folder**
+### **Renaming a Collection**
 
-1. Click on the **kebab menu** next to the folder.
+1. Click on the **kebab menu** next to the collection.
 2. Select **Rename**.
 
    ![api4](/images/api4.png)
@@ -34,19 +34,19 @@ Created folders will be displayed on the left-hand side.
 
    ![api5](/images/api5.png)
 
-### **Creating a Subfolder**
+### **Creating a Sub-collection**
 
-1. Click on the **kebab menu** next to the folder.
-2. Select **New Folder**.
+1. Click on the **kebab menu** next to the collection.
+2. Select **New Collection**.
 
    ![api6](/images/api6.png)
 
-3. Enter the folder name and select the parent folder.
+3. Enter the collection name and select the parent folder.
 4. Click **Create**.
 
-### **Deleting a Folder**
+### **Deleting a Collection**
 
-1. Click on the **kebab menu** next to the folder.
+1. Click on the **kebab menu** next to the collection.
 2. Select **Delete**.
 
    ![api7](/images/api7.png)
@@ -59,9 +59,9 @@ Created folders will be displayed on the left-hand side.
 
 ## 🔄 Sending API Requests
 
-### **Creating a New Request Inside a Folder**
+### **Creating a New Request Inside a Collection**
 
-1. Click on the **kebab menu** of the folder.
+1. Click on the **kebab menu** of the collection.
 2. Select **New Request** from the options.
 3. Enter the request name.
 4. Click **Create**.
@@ -72,7 +72,7 @@ The request editor will be displayed on the right.
 
    ![api10](/images/api10.png)
 
-### **Saving a New Request to an Existing Folder**
+### **Saving a New Request to an Existing Collection**
 
 1. Click on the '**+**' button at the top-right corner.
 
@@ -83,12 +83,12 @@ The request editor will be displayed on the right.
    ![api12](/images/api12.png)
 
 3. Enter the request name.
-4. Select the folder by clicking on its name.
+4. Select the Collection by clicking on its name.
 5. Click **Save**.
 
    ![api13](/images/api13.png)
 
-The saved request will be displayed inside the folder.
+The saved request will be displayed inside the collection.
 
    ![api14](/images/api14.png)
 
@@ -96,7 +96,7 @@ The saved request will be displayed inside the folder.
 
 ## 🚀 Sending a Request
 
-1. Click on the required request in the folder.
+1. Click on the required request in the collection.
 2. Click on the **method** dropdown near the URL field. Select the desired HTTP method (GET, POST, PUT, DELETE, PATCH). The default method is GET.
 
    ![api15](/images/api15.png)
