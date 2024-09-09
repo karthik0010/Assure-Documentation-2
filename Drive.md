@@ -20,7 +20,8 @@ To upload a file to Drive, follow these steps:
 
    ![D-3](/images/D-3.png)
 
-   > [!TIP] You can assign a prefix to the file before uploading, though it’s optional.
+   > [!TIP] 
+   > You can assign a prefix to the file before uploading, though it’s optional.
 
 3. Click on the **Upload** button.
 
