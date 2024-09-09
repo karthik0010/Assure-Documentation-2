@@ -12,7 +12,6 @@ Reusable steps, or shared test cases, allow you to create a set of steps that ca
 
 - Click on the checkboxes next to the test steps you want to group into a reusable shared step.
 
-   ![Select Steps](./SharedImages/1.Click%20Shared%20button.png)
 
 ### Step 3: Create the Shared Test
 
