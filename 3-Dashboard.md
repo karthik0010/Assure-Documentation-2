@@ -19,7 +19,7 @@
 - **Interactive Feature**: Click on the schedule count to adjust or view the details of active schedules.
 
 ### 📈 Total Runs
-- **Visual Insight**: A bar chart that dynamically updates to show how many tests have run over a selected period (daily, weekly, or monthly views).
+- **Visual Insight**: A bar chart that dynamically updates to show how many tests have run over a selected period.
 - **Actionable Tip**: Hover over individual bars to see detailed information about the runs on specific dates.
 
 ### 🥧 Executions

@@ -33,8 +33,8 @@ AssureQA allows team owners and administrators to manage their teams effectively
 
 ### 🔑 Transfer the Team
 
-1. **Choose "Transfer"**:  
-   Select the **"Transfer Ownership"** option within the team settings.
+1. **Click "Transfer"**:  
+   Click on **"Transfer"** button within the team settings.
 
    ![Transfer Team](./TeamImages/SS3.png)
 
@@ -45,7 +45,7 @@ AssureQA allows team owners and administrators to manage their teams effectively
 
 ### 🗑️ Delete the Team
 
-1. **Select "Delete"**:  
+1. **Click "Delete"**:  
    Navigate to the team settings and click on **"Delete"**.
 
    ![Delete Team](./TeamImages/SS4.png)

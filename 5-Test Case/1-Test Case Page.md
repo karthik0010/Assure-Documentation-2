@@ -18,10 +18,14 @@ The Test Case Page is where all your test cases are displayed. It's designed to 
 
    ![Cloning](./TestcaseImages/cln.png)
 
+<!-- 
+
 3. **Moving a Test Case**:  
    Relocate a test case to another module or sub-module as needed.
 
    ![Moving](./TestcaseImages/4.Move%20Test%20Case.png)
+
+-->
 
 4. **Deleting a Test Case**:  
    Remove a test case permanently if no longer needed.
