@@ -133,6 +133,6 @@ To use the 'UploadFile' keyword:
 
    ![Paste Path](images/Step-5.png)
 
-5. **Click ‘Run’** 🏃‍♂️ to execute the test case. The file present in the Drive will be uploaded to the application under test.
+5. **Click ‘Run’** to execute the test case. The file present in the Drive will be uploaded to the application under test.
 
    ![Run Upload Test Case](images/Step-6.png)
