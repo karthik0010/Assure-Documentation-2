@@ -43,12 +43,10 @@ Datasets in AssureQA organize and manage variables efficiently, allowing for eas
 
    ![Import CSV](/DatasetImages/d12.png)
 
----
-
 
 ---
 
-**Adding Dataset to Test case**
+## Adding Dataset to Test case
 
 We can use dataset in two ways inside a testcase. One way is applying it directly to the testcase and other way is applying it only to the shared steps i.e, via For Loop. First method's steps are mentioned below and for the other one, please refer 'for loop' section.
 
@@ -74,15 +72,26 @@ We can use dataset in two ways inside a testcase. One way is applying it directl
 
 Leverage datasets effectively within your test flows for enhanced testing precision:
 
-1. **Link Dataset to Test Case**:
-   In the test flow page, attach your dataset to a suite node or directly to individual test cases for dynamic data application.
+We can use dataset in two ways inside a testflow. One way is applying it directly to the testcase listed in suite node editor and other way is applying it only to the shared steps i.e, via For Loop. First method's steps are mentioned below and for the other one, please refer 'for loop' section.
 
-   ![Link Dataset](/DatasetImages/d20.png)
+ 1. Goto test flowpage.
+ 
+ 2. Create a flow
+ 
+ 3. Add suite node and add testcase which contains variables same as that in the created dataset.
+ 
+ 4. Click on the dataset dropdown button near each added testcase in the suite node editor.
+ 
+ ![d20](/DatasetImages/d20.png)
+ 
+ 5. Select created dataset and the selected one's name will be shown on the field.
 
-2. **Select Dataset in Editor**:
-   Choose the appropriate dataset from the dropdown in the suite node editor to apply it to your test cases.
+![d21](/DatasetImages/d21.png)
 
-   ![Select Dataset](/DatasetImages/d21.png)
+![d22](/DatasetImages/d22.png)
+
+> [Note:] 
+> In the first method, the variables of the test case will be overridden using only the values from the first override value column, while the other columns are ignored.
 
 ---
 
