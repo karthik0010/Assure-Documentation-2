@@ -1,4 +1,13 @@
-﻿# 🏷️ Using Tags in AssureQA
+---
+title:  🏷️ Using Tags in AssureQA
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Tags
+  order: 1
+---
+ 
+ 
+
 
 Tags in AssureQA serve as powerful labels to help you organize and find test cases, flows, and shared libraries easily. They enable users to prioritize tests, locate reusable code, and manage process steps with ease. This guide walks you through creating and linking tags to test cases, flows, and shared libraries.
 
