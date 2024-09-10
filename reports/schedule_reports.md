@@ -1,4 +1,10 @@
-# 🚀 Efficiently Managing Schedule Reports in AssureQA
+---
+title: 🚀 Efficiently Managing Schedule Reports in AssureQA
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Scheduled Reports
+  order: 4
+---
 
 Schedule Reports in AssureQA allow teams to track and analyze scheduled test executions over time. This guide provides a clear pathway to navigating and utilizing schedule reports effectively.
 
