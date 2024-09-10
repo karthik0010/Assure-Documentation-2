@@ -1,0 +1,59 @@
+﻿## 🔧 Sending Data with HTTP Requests
+
+### **Adding Parameters**
+
+1. Navigate to the request configuration section.
+2. Click on **Params**.
+3. Enter key-value pairs as needed.
+
+   ![api18](/images/api18.png)
+
+4. To unselect or delete added key-values, use the green tick or red bin icons.
+
+   ![api19](/images/api19.png)
+
+---
+
+### **Configuring the Request Body**
+
+1. Choose a method (POST, PUT, PATCH).
+2. Select the content type (JSON, XML, etc.).
+3. Enter or upload the required data.
+
+   ![api21](/images/api21.png)
+
+---
+
+### **Adding Headers**
+
+1. Open the **Headers** configuration.
+2. Add or modify key-value pairs for the headers.
+
+   ![api22](/images/api22.png)
+
+3. To unselect or delete headers, use the green tick or red bin icons.
+
+   ![api23](/images/api23.png)
+
+---
+
+## 🔒 Authorization
+
+1. Access the **Authorization** settings.
+2. Choose the authorization type (Bearer Token, Basic Auth).
+3. Enter the required credentials or tokens.
+
+   ![api25](/images/api25.png)
+
+---
+
+## 🧪 Writing Test Scripts
+
+1. Open a request and click on the **Test** section.
+2. Write test scripts using JavaScript or click on **Snippet** for code examples.
+
+   ![api26](/images/api43.png)
+
+3. Save and send the request.
+4. Review the test results.
+
