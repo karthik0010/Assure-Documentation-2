@@ -16,11 +16,21 @@ The **Character Recognition** method is a fallback mechanism that allows AssureQ
 1. **Input Element Name**: 
    - The user provides the **correct element name** in the **Element Name** field.
 
+![Sg](/images/scr3a.png)
+
+
 2. **Fallback Mechanism**: 
    - If traditional methods like XPath or CSS selectors fail, the AI switches to character recognition, scanning the screen to locate the element based on its visible name.
 
 3. **Perform Action**: 
    - Once the element is identified, the AI executes the action on that element.
+
+![Sg](/images/scr1s.png)
+
+The screenshot shows a blue rectangular box highlighting the object identified by AI.
+
+![Sg](/images/sch1b.png)
+
 
 > [!TIP]
 > Providing an accurate element name is key to ensuring the AI can find and interact with the correct element.
@@ -40,22 +50,22 @@ Imagine you have a dynamic application where UI elements, like buttons or fields
 1. **Record the Test**:
    - Begin by recording actions on the site, such as clicking a "Hotels" button.
 
-   ![Self Healing](images/scr2.jpg)
+   ![Self Healing](./images/scr2.jpg)
 
 2. **Save the Test Case**:
    - After recording, save the test case for future execution.
 
-   ![Self Healing](images/scr3.png)
+   ![Self Healing](./images/scr3.png)
 
 3. **Enable Script Healing**:
    - On the test case page, open the **Config** settings and enable the **Self Healing** option.
 
-   ![Self Healing](images/scr4.png)
+   ![Self Healing](./images/scr4.png)
 
 4. **Execute the Test**:
    - Run the test case. During the first execution, the test should pass as expected with the original locator.
 
-   ![Self Healing](images/scr5.png)
+   ![Self Healing](./images/scr5.png)
 
 ### What Happens When Locators Change?
 
