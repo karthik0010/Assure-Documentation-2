@@ -1,4 +1,10 @@
-# 🤖 AI Capabilities of AssureQA
+---
+title: 🤖 AI Capabilities of AssureQA
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: AI capabilities
+  order: 1
+---
 
 AssureQA leverages AI technology to enhance the reliability and resilience of test execution, making your test scripts more adaptive to UI changes. The AI operates using two powerful methods that work in tandem:
 
