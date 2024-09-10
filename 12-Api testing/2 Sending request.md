@@ -35,7 +35,7 @@ The saved request will be displayed inside the collection.
 
 ---
 
-### 🚀 Sending a Request
+### Sending a Request
 
 1. Click on the required request in the collection.
 2. Click on the **method** dropdown near the URL field. Select the desired HTTP method (GET, POST, PUT, DELETE, PATCH). The default method is GET.
@@ -47,7 +47,7 @@ The saved request will be displayed inside the collection.
 
    ![api16](/images/api16.png)
 
-### 📋 Viewing the Response
+### Viewing the Response
 
 The server's response will be displayed in the response pane, where you can view:
 
