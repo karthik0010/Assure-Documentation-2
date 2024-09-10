@@ -1,4 +1,10 @@
-# 🚀 Overview of Flow Reports in AssureQA
+---
+title: 🚀 Overview of Flow Reports in AssureQA
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Flow reports
+  order: 2
+---
 
 Flow Reports in AssureQA provide a comprehensive look at the outcomes of your test flows, allowing for deep insights and effective management of your test results.
 
