@@ -51,42 +51,40 @@ Imagine you have a dynamic application where UI elements, like buttons or fields
 1. **Record the Test**:
    - Begin by recording actions on the site, such as clicking a "Hotels" button.
 
-   ![Self Healing](./images/scr2.jpg)
+   ![Sng](/images/scr2.jpg)
 
 2. **Save the Test Case**:
    - After recording, save the test case for future execution.
 
-   ![Self Healing](./images/scr3.png)
+   ![Sng](/images/scr3.png)
 
 3. **Enable Script Healing**:
    - On the test case page, open the **Config** settings and enable the **Self Healing** option.
 
-   ![Self Healing](./images/scr4.png)
+   ![Sng](/images/scr4.png)
 
 4. **Execute the Test**:
    - Run the test case. During the first execution, the test should pass as expected with the original locator.
 
-   ![Self Healing](./images/scr5.png)
+   ![Self Healing](/images/scr5.png)
 
 ### What Happens When Locators Change?
 
 If the button’s locator changes from `id="hotel1"` to `id="hotel2"`, simply rerun the test without updating the locator manually. The **Script Healing** feature will automatically detect the new locator and execute the test successfully.
 
-   ![Self Healing](images/scr6.png)
+   ![Self Healing](/images/scr6.png)
 
 ### Visual Confirmation of Script Healing
 
 When script healing occurs, AssureQA visually marks the healed element with a **red rectangular box** in the screenshot, indicating that the AI has dynamically adjusted to the change.
 
-   ![Self Healing](images/scr8.png)
+   ![Sng](/images/scr8.png)
 
 ---
 
 ## 👁️ Visual Testing in AssureQA
 
 AssureQA offers a **Visual Testing** feature to ensure a consistent user experience by identifying design changes early. This feature captures and compares screenshots of the UI during testing to detect any unintended changes or visual discrepancies. By default, Visual Testing is disabled for test steps, but you can enable it for specific steps that require visual validation.
-
----
 
 ## 🔧 Configuring Visual Testing for a Test Step
 
@@ -105,8 +103,6 @@ To enable visual testing for a specific test step, follow these steps:
 
 > [!NOTE]
 > Once you enable visual testing, AssureQA requires a **baseline image** for the selected test step. The visual comparison will appear only after a test run. Visual testing compares the current image (actual) with the original image (baseline) to ensure they match.
-
----
 
 ## 🚀 Running Visual Tests on a Test Case
 
