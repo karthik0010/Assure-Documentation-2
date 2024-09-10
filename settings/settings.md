@@ -1,5 +1,11 @@
-﻿# ⚙️ SETTINGS
-
+---
+title: ⚙️ SETTINGS
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Settings
+  order: 1
+---
+ 
 The **Settings** page in AssureQA allows users to manage their profile, integrate third-party services, change passwords, adjust the application's appearance, and check the current version of the platform.
 
 ![Set1](/images/set1.png)
