@@ -1,4 +1,10 @@
-# 🔗 Team Settings Management in AssureQA
+---
+title: 🔗Team Settings Management in AssureQA
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Team Settings
+  order: 2
+---
 
 AssureQA allows team owners and administrators to manage their teams effectively. Below you’ll find various actions you can perform to manage your team settings.
 
