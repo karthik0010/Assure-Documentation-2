@@ -1,6 +1,12 @@
-# 🚀 Dashboard: Your Project’s Command Center
+---
+title:🚀 Dashboard: Your Project’s Command Center
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Dashboard
+  order: 1
+---
 
-**Welcome to your project’s command center!** The dashboard is where you’ll find everything you need to keep your testing on track. This is your hub for managing, tracking, and analyzing your test flows, schedules, and executions.
+Welcome to your project’s command center! The dashboard is where you’ll find everything you need to keep your testing on track. This is your hub for managing, tracking, and analyzing your test flows, schedules, and executions.
 
 ![Dashboard](/images/dashboard.png)
 
