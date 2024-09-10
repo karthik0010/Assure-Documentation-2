@@ -195,25 +195,82 @@ User can select either of them for testing.
 
 ## 🌍 Environment and Global Variables
 
-### **Creating Global Variables**
+**Global Variables**
+Global variables in Assureqa are variables that are accessible across all collections, environments, and requests within your Assureqa workspace. They are useful when you need to reuse values across different requests and collections without needing to define them separately each time. The following steps outline the process for creating and utilizing global variables in the request.
 
-1. Click on the **Environment** menu and select **Global Variables**.
-2. Click **+** to add a new variable.
-3. Enter the key-value pairs and click **Save**.
+1. Click on environment menu
 
-   ![api38](/images/api38.png)
+![api28](/images/api28.png)
 
----
+2. Click on global variables in Assureqa.
+3. Click on '+' near search field
 
-### **Creating Environment Variables**
+![api37](/images/api37.png)
 
-1. Click on the **Environment** menu and select **+** to create a new environment.
-2. Enter a name (e.g., Development) and click **Create**.
-3. Add key-value pairs for the environment variables.
+4. Enter key 
+5. Enter value
+6. Click on save
 
-   ![api31](/images/api31.png)
+![api38](/images/api38.png)
 
-4. Use the variables in your request by inserting them into the URL field as `{{variablename}}`.
+7. To unselect the added key-value, click on green tick button.
+
+![api39](/images/api39.png)
+
+8. To delete the added key-value, click on red bin button.
+
+![api40](/images/api40.png)
+
+9. Go to request, paste the global variable in the url field in the form: {{variablename}}.
+
+10. If the environment is selected, the variable remains in red color. To unselect the environment, click on "environment" dropdown button and select "no environment" from the list.
+
+11. When we unselect environment, the variable color changes to green.
+
+![api41](/images/api41.png)
+
+12. Click on save and then send the request.
+
+**Environment Variables**
+Environment variables in Assureqa are used to manage dynamic data and simplify the process of testing APIs across different environments. They allow you to store and reuse values such as URLs, API keys, or tokens across multiple requests, making your testing process more efficient and organized. The following steps outline the process for creating and utilizing environment variables in the request.
+
+1. Click on the Environments in Assureqa that appear upon clicking the enviroment menu.
+2. Click on '+' near the environment 
+
+![api29](/images/api29.png)
+
+3. Enter a name (e.g., "Development").
+4. Click on create, created environment will be displayed on left hand side.
+
+![api30](/images/api30.png)
+
+5. Click on '+' near search field
+6. Enter key 
+7. Enter value
+8. Click on save
+
+![api31](/images/api31.png)
+
+9. To unselect the added key-value, click on green tick button.
+
+![api32](/images/api32.png)
+
+10. To delete the added key-value, click on red bin button.
+
+![api33](/images/api33.png)
+
+11. Go to request, paste the environment variable in the url field in the form: {{variablename}}.
+12. If the environment is not selected, the variable remains in red color. To select environment, click on "no environment" dropdown button and select one from the list.
+
+![api34](/images/api34.png)
+
+![api35](/images/api35.png)
+
+13. Selected environment will be displayed and the variable color changes to green which means that variable belongs to the selected environment.
+
+![api36](/images/api36.png)
+
+14. Click on save and then send the request.
 
 ---
 
