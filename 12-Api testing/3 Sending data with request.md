@@ -37,7 +37,7 @@
 
 ---
 
-## 🔒 Authorization
+## Authorization
 
 1. Access the **Authorization** settings.
 2. Choose the authorization type (Bearer Token, Basic Auth).
@@ -47,7 +47,7 @@
 
 ---
 
-## 🧪 Writing Test Scripts
+## Writing Test Scripts
 
 1. Open a request and click on the **Test** section.
 2. Write test scripts using JavaScript or click on **Snippet** for code examples.
