@@ -1,4 +1,10 @@
-# 🚀 Creating a Test Case: 
+---
+title: 🚀 Creating a Test Case
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Test Case Creation
+  order: 1
+---
 
 Let's explore the process of creating a test case. You can either record a new test case or manually create one. Follow these steps for a smooth experience!
 
