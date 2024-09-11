@@ -30,7 +30,7 @@ To enable visual testing for a specific test step, follow these steps:
    - After enabling visual testing, click the **Run** button to execute the test.
 
 2. **Capture the Baseline Image**:
-   - On the first run, a baseline image will be captured. Run the test again to compare it with the baseline image.
+   - On the first run, a baseline image will be captured. Run the test again to compare actual image with the baseline image.
 
 3. **Visual Validation**:
    - On the second run, an icon indicating visual validation will appear.
