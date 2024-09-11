@@ -23,7 +23,7 @@ The **Character Recognition** method is a fallback mechanism that allows AssureQ
 1. **Input Element Name**: 
    - The user provides the **correct element name** in the **Element Name** field.
 
-![Sg](/images/scr3a.png)
+![Sg](../images/scr3a.png)
 
 
 2. **Fallback Mechanism**: 
@@ -32,11 +32,11 @@ The **Character Recognition** method is a fallback mechanism that allows AssureQ
 3. **Perform Action**: 
    - Once the element is identified, the AI executes the action on that element.
 
-![Sg](/images/scr1s.png)
+![Sg](../images/scr1s.png)
 
 The screenshot shows a blue rectangular box highlighting the object identified by AI.
 
-![Sg](/images/sch1b.png)
+![Sg](../images/sch1b.png)
 
 
 > [!TIP]
@@ -57,34 +57,34 @@ Imagine you have a dynamic application where UI elements, like buttons or fields
 1. **Record the Test**:
    - Begin by recording actions on the site, such as clicking a "Hotels" button.
 
-   ![Sng](/images/scr2.jpg)
+   ![Sng](../images/scr2.jpg)
 
 2. **Save the Test Case**:
    - After recording, save the test case for future execution.
 
-   ![Sng](/images/scr3.png)
+   ![Sng](../images/scr3.png)
 
 3. **Enable Script Healing**:
    - On the test case page, open the **Config** settings and enable the **Self Healing** option.
 
-   ![Sng](/images/scr4.png)
+   ![Sng](../images/scr4.png)
 
 4. **Execute the Test**:
    - Run the test case. During the first execution, the test should pass as expected with the original locator.
 
-   ![Self Healing](/images/scr5.png)
+   ![Self Healing](../images/scr5.png)
 
 ### What Happens When Locators Change?
 
 If the button’s locator changes from `id="hotel1"` to `id="hotel2"`, simply rerun the test without updating the locator manually. The **Script Healing** feature will automatically detect the new locator and execute the test successfully.
 
-   ![Self Healing](/images/scr6.png)
+   ![Self Healing](../images/scr6.png)
 
 ### Visual Confirmation of Script Healing
 
 When script healing occurs, AssureQA visually marks the healed element with a **red rectangular box** in the screenshot, indicating that the AI has dynamically adjusted to the change.
 
-   ![Sng](/images/scr8.png)
+   ![Sng](../images/scr8.png)
 
 ---
 
@@ -105,7 +105,7 @@ To enable visual testing for a specific test step, follow these steps:
 3. **Save the Changes**:
    - Click on the **Save** button to confirm the settings.
 
-   ![vi1](/images/vi1.png)
+   ![vi1](../images/vi1.png)
 
 > [!NOTE]
 > Once you enable visual testing, AssureQA requires a **baseline image** for the selected test step. The visual comparison will appear only after a test run. Visual testing compares the current image (actual) with the original image (baseline) to ensure they match.
@@ -121,13 +121,13 @@ To enable visual testing for a specific test step, follow these steps:
 3. **Visual Validation**:
    - On the second run, an icon indicating visual validation will appear.
 
-   ![vi2](/images/vi2.png)
+   ![vi2](../images/vi2.png)
 
 4. **Review Visual Comparison**:
    - Click the visual validation icon to display a pop-up with the comparison between the actual image and the baseline image.
    - If the images contain visual differences, the report will show the comparison as "true." If there are no differences, it will display as "false."
 
-   ![vi3](/images/vi3.png)
+   ![vi3](../images/vi3.png)
 
 > [!NOTE]
 > Visual Testing can also be executed in a **Test Flow**.
