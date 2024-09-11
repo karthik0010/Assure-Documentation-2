@@ -1,0 +1,76 @@
+---
+title: 🔄 Sending API Requests
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Sending API Request
+  order: 2
+---
+
+### **Creating a New Request Inside a Collection**
+
+1. Click on the **kebab menu** of the collection.
+2. Select **New Request** from the options.
+3. Enter the request name.
+4. Click **Create**.
+
+   ![api9](/images/api9.png)
+
+The request editor will be displayed on the right.
+
+   ![api10](/images/api10.png)
+
+### **Saving a New Request to an Existing Collection**
+
+1. Click on the '**+**' button at the top-right corner.
+
+   ![api11](/images/api11.png)
+
+2. Click on **Save**.
+
+   ![api12](/images/api12.png)
+
+3. Enter the request name.
+4. Select the Collection by clicking on its name.
+5. Click **Save**.
+
+   ![api13](/images/api13.png)
+
+The saved request will be displayed inside the collection.
+
+   ![api14](/images/api14.png)
+
+---
+
+### Sending a Request
+
+1. Click on the required request in the collection.
+2. Click on the **method** dropdown near the URL field. Select the desired HTTP method (GET, POST, PUT, DELETE, PATCH). The default method is GET.
+
+   ![api15](/images/api15.png)
+
+3. Enter the URL.
+4. Click **Send** to send the request to the server.
+
+   ![api16](/images/api16.png)
+
+### Viewing the Response
+
+The server's response will be displayed in the response pane, where you can view:
+
+- **JSON**: Automatically formatted and indented for readability.
+- **Raw**: Displays the unformatted response.
+- **Headers**: Metadata about the response.
+- **Test Result**: Displays the outcomes of any tests you've written to validate the API response.
+
+   ![api42](/images/api42.png)
+
+### Interceptor
+
+Interceptor enables you to capture API traffic, including requests and cookies, from a web browser. After capturing requests or cookies, you can view and work with them. AssureQA offers two interceptors like 
+Browser and Proxy to intercept API requests and responses for testing purposes.
+Browser-Directly sents request from browser to server.
+Proxy- Proxy server acts as an intermediary between the client (like a web browser) and the server. It forwards 
+client requests to the server and sends the server's response back to the client. 
+User can select either of them for testing.
+
+![api27](/images/api27.png)

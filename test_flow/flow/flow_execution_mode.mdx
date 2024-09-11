@@ -1,0 +1,58 @@
+---
+title: 🚀 Understanding Flow Execution Modes in AssureQA
+description: Explore AssureQA's comprehensive documentation for an in-depth look at our services and tools.
+sidebar:
+  label: Flow execution mode
+  order: 4
+---
+
+In AssureQA, you can manage your test flows using different execution modes to optimize testing efficiency. This guide will explain how to execute flows in both serial and parallel modes.
+
+## 🛠️ Setting Up Flow Execution
+
+Choose the mode that best fits your testing needs—whether it’s running tests sequentially (Serial Mode) or simultaneously (Parallel Mode).
+
+### Serial Mode: Sequential Execution
+
+1. **Selecting Mode of Execution**:
+   Click the toggle buttton to serial mode 
+
+   ![Run Flow](./TestFlowImages/MODE1.png)
+
+2. **Monitoring Progress**:
+   Start the execution by clicking the *Run* button in the flow builder interface and after initiation, you'll be redirected to the flow report page where you can track the progress of each suite node.
+
+   ![Monitor Progress](./TestFlowImages/MODE2.png)
+
+3. **View Live Reports**:
+   Click on any suite node to view a live report, observing the test cases as they run one after the other.
+
+   ![Live Report](./TestFlowImages/MODE4.png)
+
+4. **Completion Status**:
+   Each node will update from "InProgress" to "Passed" or "Failed," with the node color changing to green for passed and red for failed.
+
+   ![Completion Status](./TestFlowImages/MODE5.png)
+
+---
+
+### Parallel Mode: Concurrent Execution
+
+1. **Selecting Mode of Execution**:
+   Click the toggle buttton to parallel mode .
+
+   ![Parallel Execution](./TestFlowImages/MODE6.png)
+
+2. **Observe Multiple Nodes**:
+   Execute the flow in parallel by hitting the Run button, similar to the serial mode, but here multiple test cases run at the same time.The flow builder will show the status of each suite node simultaneously on the flow report page.
+
+   ![Multiple Nodes Progress](./TestFlowImages/MODE7.png)
+
+3. **Finalizing Tests**:
+   The test cases within each suite complete their execution concurrently, updating the status from "InProgress" to "Passed" or "Failed".
+
+   ![Final Status](./TestFlowImages/MODE9.png)
+
+---
+
+These execution modes provide flexibility and control over how your test cases are run, ensuring that you can optimize your testing process according to project requirements and timelines in AssureQA. 🌟 Dive in and choose the mode that best suits your testing strategy!
